@@ -1,0 +1,11 @@
+The legal text is the Constitution of the Republic of Maldives and the statutes listed in the README, as published by the Attorney General's Office
+of the Maldives on its legislation website:
+
+  Source: https://mvlaw.gov.mv/en/legislations/6 (retrieved 29 October 2026), and the pages of the statutes in
+  the README table, at https://mvlaw.gov.mv/en/legislations/<id> (retrieved 30 October 2026).
+
+The laws of the Maldives are published on that website for public use. This repository makes no claim over them.
+
+Changes made by Lexifina: the site's structured pages for each consolidated version were converted to one Markdown
+file per article, with sub-items as lines; HTML was removed and whitespace was normalised. The wording is otherwise
+the site's. Not an official copy.

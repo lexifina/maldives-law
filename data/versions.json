@@ -1,0 +1,151 @@
+{
+ "country": "MV",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "Constitution",
+   "title": "Constitution of the Republic of Maldives (Dhivehi)",
+   "url": "https://mvlaw.gov.mv/en/legislations/6",
+   "versions": [
+    {
+     "from": "2008-08-07",
+     "units": 323,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/6/consolidations/5",
+     "sha256": "cd83276d3621d7c165029f6c62a5bbba60ea2cc3ade2bb497cb0664219465f84"
+    },
+    {
+     "from": "2015-06-25",
+     "units": 323,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/6/consolidations/754",
+     "sha256": "1bb3c1d9839184de5a36e64da70f4554e3bc7de72d0ae808c9c9b5208d2d7d93"
+    },
+    {
+     "from": "2015-07-24",
+     "units": 338,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/6/consolidations/758",
+     "sha256": "5a5209124d99a5ee7770bb4dc5ebd777dab7933e3da31830fa04fd60ccc53f6f"
+    },
+    {
+     "from": "2018-12-03",
+     "units": 338,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/6/consolidations/759",
+     "sha256": "f4d2b87b23e2f303318804f9c54923d4a7c743f3a3c5669779ef58931c73c91a"
+    },
+    {
+     "from": "2019-04-23",
+     "units": 323,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/6/consolidations/761",
+     "sha256": "7930f9021349b8ab35239843435ac23858242a03cb2c82f59fcb52b824916a8b"
+    },
+    {
+     "from": "2019-12-08",
+     "units": 323,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/6/consolidations/764",
+     "sha256": "3e1bdb2593f2fb808b29b898968f36796e7a10c9d3a6b52ada29cca295dce6bf"
+    },
+    {
+     "from": "2020-06-02",
+     "units": 323,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/6/consolidations/783",
+     "sha256": "802e37ea93b10f7864bfa06651e053e3bfdfbb07624a15c9f3fa392975a5293c"
+    },
+    {
+     "from": "2024-11-20",
+     "units": 323,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/6/consolidations/1260",
+     "sha256": "e3509c20b3bf5b86f96bc3a56b2fa58a1c26c98cda8189d9bb3114f437c1f406"
+    },
+    {
+     "from": "2025-12-01",
+     "units": 323,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/6/consolidations/1304",
+     "sha256": "cc4a6f132598ca8c582cf6f034bdd61011f68d500a3806480b4e1000997e8bff"
+    }
+   ]
+  },
+  {
+   "slug": "penal-code",
+   "short": "Penal Code",
+   "title": "Penal Code (Law No. 9/2014) (Dhivehi)",
+   "url": "https://mvlaw.gov.mv/en/legislations/251",
+   "versions": [
+    {
+     "from": "2015-04-13",
+     "units": 746,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/251/consolidations/965",
+     "sha256": "9fe0068798d4ac69bf5c7b784b5090fba6b3d7aa8aacc5b2ed3d5c8adacb3b19"
+    },
+    {
+     "from": "2015-05-05",
+     "units": 745,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/251/consolidations/1172",
+     "sha256": "172c32cd95b0d37bca57087b35beaa4ef0a3a7f7a2f524418f8e7341a4eabb08"
+    },
+    {
+     "from": "2015-07-16",
+     "units": 745,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/251/consolidations/1140",
+     "sha256": "dbb4ca3964564da176fc5e5fe3920008bc0feb1cd8a1dbf6b3b790bf79985bd8"
+    },
+    {
+     "from": "2015-09-03",
+     "units": 745,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/251/consolidations/1178",
+     "sha256": "730e9c5aafee77cc1bcc51206fb7fb3e54d53adc7c44f97becbd1871dcdd2415"
+    },
+    {
+     "from": "2021-05-06",
+     "units": 759,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/251/consolidations/1190",
+     "sha256": "228af32a26560aa6e554ac87ea8fcc4209528e3bbcd6f5b7a7f0d4c65d718e7f"
+    },
+    {
+     "from": "2021-11-28",
+     "units": 764,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/251/consolidations/1197",
+     "sha256": "9123645990109ca48c5e475041b90dc45ebccd5ebd07e145f0415a725637070c"
+    },
+    {
+     "from": "2024-12-17",
+     "units": 820,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/251/consolidations/1331",
+     "sha256": "55f0fa037b94422ae01b0961e9df44e4bb9d6036fb048362b0f451aafcc66ef7"
+    }
+   ]
+  },
+  {
+   "slug": "contract-act",
+   "short": "Contract Act",
+   "title": "Contract Act (Law No. 4/1991) (Dhivehi)",
+   "url": "https://mvlaw.gov.mv/en/legislations/79",
+   "versions": [
+    {
+     "from": "1991-05-28",
+     "units": 41,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/79/consolidations/87",
+     "sha256": "e20d4338df6f5cc62bf913790d3b6ec7e99f44ba4f6a4bcff0ad1e8b4208fde8"
+    }
+   ]
+  },
+  {
+   "slug": "companies-act",
+   "short": "Companies Act",
+   "title": "Companies Act (Law No. 7/2023) (Dhivehi)",
+   "url": "https://mvlaw.gov.mv/en/legislations/272",
+   "versions": [
+    {
+     "from": "2024-01-01",
+     "units": 298,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/272/consolidations/1225",
+     "sha256": "45694a996da1280110e5ae9e2a6f986314224cc08bd5dc64430a7aa2335be96f"
+    },
+    {
+     "from": "2024-09-18",
+     "units": 298,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/272/consolidations/1253",
+     "sha256": "38c126f6583069d2b7b9447d2dfa2c5e36fbe968c27b7321ea465a085840dd5a"
+    }
+   ]
+  }
+ ]
+}
