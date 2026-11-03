@@ -172,6 +172,2464 @@
      "sha256": "7789d45edae2d7617a45b2c2ca3a0a8f3665852e6c0faae6d8921059ba12233d"
     }
    ]
+  },
+  {
+   "slug": "law-3",
+   "short": "3/2022",
+   "title": "ޖަމްޢިއްޔާތަކުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/3",
+   "versions": [
+    {
+     "from": "2022-11-09",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/3",
+     "sha256": "6cfae16ee946354e3ff6ee924390cee291241f4ea45eb4912b90b68659f66f3b"
+    }
+   ]
+  },
+  {
+   "slug": "law-4",
+   "short": "2/2022",
+   "title": "އިލެކްޓްރޯނިކް މުޢާމަލާތްތަކާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/4",
+   "versions": [
+    {
+     "from": "2022-04-27",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/4",
+     "sha256": "fff48a56d2f47787a2f2abd16d83202d914c89e80b93189b35a4ac35e3252a8a"
+    }
+   ]
+  },
+  {
+   "slug": "law-7",
+   "short": "1/97",
+   "title": "ދިވެހިރާއްޖޭގެ ޢިއްޒަތުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/7",
+   "versions": [
+    {
+     "from": "1997-06-19",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/7",
+     "sha256": "7342de1fbe63e60a6103452de820716a366c2f30810aef18682dd451d7248d0d"
+    }
+   ]
+  },
+  {
+   "slug": "law-8",
+   "short": "1/2002",
+   "title": "ދިވެހިރާއްޖޭގެ ބިމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/8/consolidations/281",
+   "versions": [
+    {
+     "from": "2003-05-23",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/8/consolidations/281",
+     "sha256": "6b02509385c14ba22a438badb9df8e1e2850223c0df271c187ed3b9f5662776a"
+    },
+    {
+     "from": "2004-05-03",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/8/consolidations/913",
+     "sha256": "39f32a70783604196c0a7f69134cee36fe1dd160016b756f247d40d405038c29"
+    },
+    {
+     "from": "2014-05-13",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/8/consolidations/919",
+     "sha256": "b27b63e120b1b393aeefa37970ce7a25304b987abcdb71dd91a8ce69312e2aa1"
+    },
+    {
+     "from": "2015-01-05",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/8/consolidations/920",
+     "sha256": "545792920c919439ae02f331e2f35150fdc283cc53c793bde740ce8e4ff9d0bf"
+    },
+    {
+     "from": "2015-08-27",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/8/consolidations/921",
+     "sha256": "3313cc5aa25d8281be27b17f2da700e0e8ecb7c479e78fa33052dd3d5c68fadb"
+    },
+    {
+     "from": "2015-12-02",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/8/consolidations/924",
+     "sha256": "053e318f9476e4d73f79d5aa565ce98ae581c388686f9f5c518c643e9a5d586c"
+    },
+    {
+     "from": "2016-08-15",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/8/consolidations/925",
+     "sha256": "38468734517e6765e22e4049ab34a4c40e4d72e092bccf358122066796bcf690"
+    },
+    {
+     "from": "2021-12-13",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/8",
+     "sha256": "aa95862b3d3872ccfa2c4b8fa2df014be392fac7989a42985c3ad4037219ddd8"
+    }
+   ]
+  },
+  {
+   "slug": "law-11",
+   "short": "21/98",
+   "title": "މީހުންއުޅޭ ރަށްރަށުގެ ރުއްގަހާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/11",
+   "versions": [
+    {
+     "from": "1998-07-22",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/11",
+     "sha256": "d46c23007c788befa341884767649c4415f71c847f0dff9e71aa8234152e96f7"
+    }
+   ]
+  },
+  {
+   "slug": "law-12",
+   "short": "27/76",
+   "title": "ސަރުކާރަށް ނުވަތަ ސަރުކާރާބެހޭ ފަރާތަކަށް ދަރަނީގެ ގޮތުންނާއި އެހެނިހެން ގޮތްގޮތުން ދައްކަންޖެހޭ ފައިސާ އަތުލުމާ ބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/12",
+   "versions": [
+    {
+     "from": "1978-04-24",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/12",
+     "sha256": "82ccba766a509b4b2dc7733aa3e772e1190a37fdce5dd9ba5c95a64c4c22f758"
+    }
+   ]
+  },
+  {
+   "slug": "law-16",
+   "short": "48/78",
+   "title": "ކާނިވަލް، ފަންފެއަރ ފަދަ ތަންތަން ހެދުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/16",
+   "versions": [
+    {
+     "from": "1978-05-30",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/16",
+     "sha256": "9bb8f57ddc8ac57f32b3148d9535c6b513a1dab2880b614825ddd48f93db1f14"
+    }
+   ]
+  },
+  {
+   "slug": "law-17",
+   "short": "54/78",
+   "title": "މާލޭގެ ގޯތިގޯއްޗާއި ބިންބިމުގެ އިން ވަކިކުރުމާއި އިމުގައި ނުވަތަ އިމާ ކައިރީގައި ޢިމާރާތްކޮށް ތަންތަން ހެދުމާއި މަގަށް ދޮރު ކެނޑުމާ ބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/17",
+   "versions": [
+    {
+     "from": "2000-11-26",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/17",
+     "sha256": "153603ed79f034d372468214c61a730227b22750279c60b2fa51ae223b076f26"
+    }
+   ]
+  },
+  {
+   "slug": "law-18",
+   "short": "65/78",
+   "title": "ރާއްޖޭގެ ބަނދަރުތަކުގައި ހުންނަ ފުރާދުއްވާ އެއްޗެހީގައި ބޭރަށް ފެންނާނެހެން އަލި ބެހެއްޓުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/18",
+   "versions": [
+    {
+     "from": "1982-01-04",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/18",
+     "sha256": "a6b8705ac75a57dbd0824698f09dcb5b7d92297a5cc610f1ed4f41e230733275"
+    }
+   ]
+  },
+  {
+   "slug": "law-19",
+   "short": "66/78",
+   "title": "ދިވެހިރާއްޖޭގައި ބަނދަރުކުލި ނެގުމާބެހޭ  ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/19",
+   "versions": [
+    {
+     "from": "2016-11-29",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/19",
+     "sha256": "5e55d2fe09a99832c11a9fd358a69172c1bd0626692863e52a702dc5ab69a83a"
+    }
+   ]
+  },
+  {
+   "slug": "law-20",
+   "short": "69/78",
+   "title": "ކަނޑުގައި ދުއްވާ އުޅަނދުތައް ދުއްވުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/20",
+   "versions": [
+    {
+     "from": "2021-12-13",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/20",
+     "sha256": "0af37ab83d1d3be1079fb7a09b7c007f42c2b46efd1a0b06591e35a5cccc89ef"
+    }
+   ]
+  },
+  {
+   "slug": "law-22",
+   "short": "74/78",
+   "title": "ދިވެހިބޭސް ކުރުމާއި ފަންޑިތަ ހެދުމާއި ޚިތާނު ކުރުމާއި އަދި ފޫޅުމާކަން ކުރުމާ ބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/22",
+   "versions": [
+    {
+     "from": "1978-06-05",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/22",
+     "sha256": "a80c98bf1fcf8b99edbeb2342edaf14f0c80808125dd18c54bc8155b93528644"
+    }
+   ]
+  },
+  {
+   "slug": "law-23",
+   "short": "75/78",
+   "title": "ބޭހުގެ ބާވަތްތައް ދިވެހިރާއްޖެއަށް އެތެރެ ކުރުމާއި ވިއްކުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/23",
+   "versions": [
+    {
+     "from": "1995-11-01",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/23",
+     "sha256": "1ab05e4528f4e4cd79e03ad805711512583efde59067225e955672f20bca05c5"
+    }
+   ]
+  },
+  {
+   "slug": "law-24",
+   "short": "76/78",
+   "title": "ޕޯޓްހެލްތާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/24",
+   "versions": [
+    {
+     "from": "1989-04-17",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/24",
+     "sha256": "5f34145db62a207701ffc178401058095562acaa583c01b23eabf5e14868badc"
+    }
+   ]
+  },
+  {
+   "slug": "law-26",
+   "short": "79/78",
+   "title": "ދިވެހިރާއްޖޭގެ ޕާސްޕޯޓާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/26",
+   "versions": [
+    {
+     "from": "1980-10-09",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/26",
+     "sha256": "fe6c04c5349ba28d3c8e93ca55d58002c1eae1d76c640505be625469c9ea5f27"
+    }
+   ]
+  },
+  {
+   "slug": "law-27",
+   "short": "84/78",
+   "title": "މާލޭގެ ދޯނި އެހިލާ ތަންތަނަށް އެހިލާ އުޅަނދުތަކާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/27",
+   "versions": [
+    {
+     "from": "1994-06-20",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/27",
+     "sha256": "a1f629c63ebde9c35ea990e450558948131b2749635f5d7ef24099d9984b2cdd"
+    }
+   ]
+  },
+  {
+   "slug": "law-28",
+   "short": "31/78",
+   "title": "ޖަމާޢަތްތެރިކަމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/28",
+   "versions": [
+    {
+     "from": "1978-05-30",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/28",
+     "sha256": "ef0d5595ed47e487de9b8ead17de83041093b475c1c2c771ee7bfc4390bbc367"
+    }
+   ]
+  },
+  {
+   "slug": "law-29",
+   "short": "28/76",
+   "title": "ސަރުކާރުގައި ރަޖިސްޓަރީ ކޮށްފައި ހުންނަ މީހުންގެ އަމިއްލަ ތަކެތި ދީ ނުވަތަ ވިއްކުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/29",
+   "versions": [
+    {
+     "from": "1982-04-15",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/29",
+     "sha256": "aa7a9f7cdd4a96cb778f199d8535ec13080fafc721fd10d69bccbd68e89ef886"
+    }
+   ]
+  },
+  {
+   "slug": "law-30",
+   "short": "28/70ޖ",
+   "title": "ސަރުކާރުގެ އެންގުމަކަށް ރާއްޖޭގެ އެއްރަށުން އަނެއް ރަށަށް ގެންދަންޖެހޭ މީހުން ގެނެސް ގެންދިއުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/30",
+   "versions": [
+    {
+     "from": "1981-08-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/30",
+     "sha256": "d946ae128c6b39f934e8063ce656043ef6f7e3b8caa2aad2b1e1ce8b3dbe2ed4"
+    }
+   ]
+  },
+  {
+   "slug": "law-31",
+   "short": "14/77",
+   "title": "ރާއްޖޭން ބޭރަށްދާ ދިވެހިންނާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/31",
+   "versions": [
+    {
+     "from": "1998-04-05",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/31",
+     "sha256": "c78e3063a258f730d84a25086530ae7d77d56a737280aef5211e71b66d091a5f"
+    }
+   ]
+  },
+  {
+   "slug": "law-32",
+   "short": ".٨/ ٣ ١",
+   "title": "ސަރުކާރުގެ ހުރިހާ މުވައްޒަފުންގެ މުސާރަ ކަނޑައެޅުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/32",
+   "versions": [
+    {
+     "from": "1990-11-05",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/32",
+     "sha256": "dfdffc7f917394ab36e46dbf01ed902652ee4a0bc6bd6453e9923aca9015bf36"
+    }
+   ]
+  },
+  {
+   "slug": "law-33",
+   "short": "9/81",
+   "title": "ދިވެހިރާޖޭގެ ޑިއުޓީ މަޢާފް ދާއިރާތަކާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/33",
+   "versions": [
+    {
+     "from": "1981-11-09",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/33",
+     "sha256": "416aa90287ca5a7b7f8690d3caf7617de5f280eb5260128571ddf29012fe5911"
+    }
+   ]
+  },
+  {
+   "slug": "law-35",
+   "short": "9/78",
+   "title": "ރައްޔިތުންގެ މަޖިލީހަށް ދައުލަތުގެ ފަރާތުން ބިލް ހުށަހެޅުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/35",
+   "versions": [
+    {
+     "from": "1978-03-11",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/35",
+     "sha256": "fa49ae5a9ea3de6b803dbf99a208da9102aaa09acca1fbb3f02edc62982634f5"
+    }
+   ]
+  },
+  {
+   "slug": "law-37",
+   "short": "7/77",
+   "title": "ހަވާލުވާންޖެހޭ މުދާ ނުވަތަ ފައިސާއަކާ ހަވާލު ނުވުމުން ޢަމަލުކުރެވޭނެ ގޮތުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/37",
+   "versions": [
+    {
+     "from": "1982-04-10",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/37",
+     "sha256": "d7cf18ae7ff11381eac4f0183a0f1494c4c0e9b3dc5a56ec0cfa459ce3fcb3e6"
+    }
+   ]
+  },
+  {
+   "slug": "law-38",
+   "short": "5/80",
+   "title": "ބައެއް ފަރާތްތަކުގެ ޑިއުޓީއާއި މަޢްމޫލު މަޢާފު ކުރުމުގެ ހައްޤު ދައުލަތަށް ލިބުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/38",
+   "versions": [
+    {
+     "from": "2022-12-16",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/38",
+     "sha256": "85b4342e122064a0807afd6b6fadc79ff9a7e3354faff88a7c7c0da8e4954386"
+    }
+   ]
+  },
+  {
+   "slug": "law-39",
+   "short": "29/76",
+   "title": "ސަރުކާރުގެ މަދަރުސާތަކުގައި ކިޔަވާ ކުދިންނާއި، ސަރުކާރުން އެހީވެދޭ އަމިއްލަ މަދަރުސާތަކުގައި ކިޔަވާ ކުދިންނާއި، ސަރުކާރުގެފަރާތުން ތަމްރީނުދެވޭ މީހުން ސަރުކާރަށް ޚިދްމަތް ކުރުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/39",
+   "versions": [
+    {
+     "from": "2014-12-01",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/39",
+     "sha256": "4e537407e6594c8164ccce40d1f7ee1ad5b967c7e4916d866eea361aa0ec73c1"
+    }
+   ]
+  },
+  {
+   "slug": "law-40",
+   "short": "17/2014",
+   "title": "ޖިންސީ ކުށުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/40",
+   "versions": [
+    {
+     "from": "2021-12-06",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/40",
+     "sha256": "0db35596ee0c67f4656e02abf08216beb454f8bb2e37fe6642a364c1e1570179"
+    }
+   ]
+  },
+  {
+   "slug": "law-41",
+   "short": "34/2015",
+   "title": "އޭޝިއަން އިންފްރާސްޓްރަކްޗަރ އިންވެސްޓްމަންޓް ބޭންކްގެ މެންބަރަކަށް ދިވެހިރާއްޖެ ވުމާގުޅޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/41",
+   "versions": [
+    {
+     "from": "2015-11-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/41",
+     "sha256": "e2d9562dc60e3b3c75b756cb8f51b6a699fec1fb72cb87e64890ccb80b9f7b81"
+    }
+   ]
+  },
+  {
+   "slug": "law-42",
+   "short": "32/2015",
+   "title": "ޓެރަރިޒަމް މަނާކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/42",
+   "versions": [
+    {
+     "from": "2021-12-15",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/42",
+     "sha256": "e3a36282b409b839b6ba094e49113b5c7260687359911359d3a1c55e8b81af1d"
+    }
+   ]
+  },
+  {
+   "slug": "law-46",
+   "short": "42/2015",
+   "title": "ކޮމިއުނިކޭޝަންސް އޮތޯރިޓީ އޮފް މޯލްޑިވްސްގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/46",
+   "versions": [
+    {
+     "from": "2016-03-08",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/46",
+     "sha256": "0ac68a9acb77099063b690d20616de8cde6d4c210c98ede5d98e36d4ce956033"
+    }
+   ]
+  },
+  {
+   "slug": "law-47",
+   "short": "30/2015",
+   "title": "ދިވެހިރާއްޖޭގެ ކުޅިވަރު ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/47",
+   "versions": [
+    {
+     "from": "2025-05-19",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/47",
+     "sha256": "3b3218bbe9f67c4b657d800341f658a5fd34ee7db46deb96266302101f0e1b81"
+    }
+   ]
+  },
+  {
+   "slug": "law-48",
+   "short": "29/2015",
+   "title": "ޞިއްޙީ ޚިދުމަތް ދިނުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/48",
+   "versions": [
+    {
+     "from": "2025-03-03",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/48",
+     "sha256": "a8d3b30cf7412facfa2adba510eeef41e68dc91d8ca59d1da0e0059d647023d1"
+    }
+   ]
+  },
+  {
+   "slug": "law-49",
+   "short": "43/2015",
+   "title": "ދިވެހިރާއްޖޭގެ ޓެލެކޮމިއުނިކޭޝަންގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/49",
+   "versions": [
+    {
+     "from": "2016-04-10",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/49",
+     "sha256": "cb27003674748627677320469e844dd3845b4b0ed99c1ea0038df339306758aa"
+    }
+   ]
+  },
+  {
+   "slug": "law-50",
+   "short": "28/2015",
+   "title": "ކާރިސާއާބެހޭ ކަންކަން ބެލެހެއްޓުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/50",
+   "versions": [
+    {
+     "from": "2016-03-06",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/50",
+     "sha256": "cf18b97efd704aa49aa431df3db895dcc115258e35a581bd09f7b0a6038e3d38"
+    }
+   ]
+  },
+  {
+   "slug": "law-51",
+   "short": "27/2015",
+   "title": "ނޭޝަނަލް އިންޓެގްރިޓީ ކޮމިޝަންގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/51",
+   "versions": [
+    {
+     "from": "2016-10-06",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/51",
+     "sha256": "1479576f401258933cd5e2bc37f3de2099c868afbb085f816b72cee21573539c"
+    }
+   ]
+  },
+  {
+   "slug": "law-52",
+   "short": "13/2015",
+   "title": "ޞިއްޙީ ޚިދުމަތުގެ ފަންނީ މަސައްކަތްތެރިންގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/52",
+   "versions": [
+    {
+     "from": "2015-08-13",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/52",
+     "sha256": "cbc14aca26122114fd31811cecef7f0a87e74f7649625b63a13d7424d738f266"
+    }
+   ]
+  },
+  {
+   "slug": "law-53",
+   "short": "11/2015",
+   "title": "ދިވެހިރާއްޖޭގެ އިސްލާމީ ޔުނިވަރސިޓީގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/53",
+   "versions": [
+    {
+     "from": "2019-08-05",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/53",
+     "sha256": "6253b1efcfae270b6e1fc5a2564c37a26bc6110880d2d8195c0600f4abe88d9d"
+    }
+   ]
+  },
+  {
+   "slug": "law-55",
+   "short": "1/2015",
+   "title": "އެކްސްޓްރަޑިޝަންގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/55",
+   "versions": [
+    {
+     "from": "2015-04-05",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/55",
+     "sha256": "9554fb781e82c96684dc382f3c08186a735a49efb8635cb047c7502dd5123260"
+    }
+   ]
+  },
+  {
+   "slug": "law-56",
+   "short": "38/2014",
+   "title": "ކުށްވެރިން ބަދަލުކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/56",
+   "versions": [
+    {
+     "from": "2015-03-11",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/56",
+     "sha256": "fb4d6728d6b4ccc33c347bc23f4af50f8e098d1341b8ef8162be5756ec30d3e1"
+    }
+   ]
+  },
+  {
+   "slug": "law-57",
+   "short": "2/2015",
+   "title": "ޖިނާއީ މައްސަލަތަކުގައި ޤާނޫނީ އެހީތެރިކަން ބަދަލުކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/57",
+   "versions": [
+    {
+     "from": "2024-12-17",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/57",
+     "sha256": "74ad05d9620a5e0313bf1cb1618d6dd5a73eaf5f3d4c51f29528f83f98b7c424"
+    }
+   ]
+  },
+  {
+   "slug": "law-58",
+   "short": "5/2010",
+   "title": "ވެރިކަން ބަދަލުވުމުގެ މަރުޙަލާއާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/58",
+   "versions": [
+    {
+     "from": "2010-04-20",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/58",
+     "sha256": "ce3811551fd07df11ac4f8605fddd9cf043f5577fe770dc49cda0c6d2440b057"
+    }
+   ]
+  },
+  {
+   "slug": "law-62",
+   "short": "26/2014",
+   "title": "ބައެއް ޤާނޫނުތައް އިޞްލާޙުކުރުމުގެ ޤާނޫނު 2014",
+   "url": "https://mvlaw.gov.mv/en/legislations/62",
+   "versions": [
+    {
+     "from": "2014-09-07",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/62",
+     "sha256": "59d4265b1ccc768003bf7129e0b5c8d762b8b5da1a6d36183ff2b3478c5d2ac4"
+    }
+   ]
+  },
+  {
+   "slug": "law-63",
+   "short": "4/68ޖ",
+   "title": "ޢާންމު ޤާނޫނުތަކެއް",
+   "url": "https://mvlaw.gov.mv/en/legislations/63",
+   "versions": [
+    {
+     "from": "1994-06-20",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/63",
+     "sha256": "87ad777af6cdc3d2de73adbcdc0ce7057d1b56781892b37f9156df247515498c"
+    }
+   ]
+  },
+  {
+   "slug": "law-65",
+   "short": "2/2001",
+   "title": "ދިވެހިރާއްޖޭގެ މަދަނީ ވައިގެ ދަތުރުފަތުރުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/65",
+   "versions": [
+    {
+     "from": "2001-01-11",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/65",
+     "sha256": "fd68d2c55bcabbe5c0fdd6b626f858cd064bb18f9a5ee677648ea51a0284dd00"
+    }
+   ]
+  },
+  {
+   "slug": "law-68",
+   "short": "6/81",
+   "title": "މޯލްޑިވްސް މަނިޓަރީ އޮތޯރިޓީގެ ޤާނޫނު 1981",
+   "url": "https://mvlaw.gov.mv/en/legislations/68",
+   "versions": [
+    {
+     "from": "2020-12-24",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/68",
+     "sha256": "03202b9c38165c055fb539e663ca267b354649beb11684c4a0ccc72eb75db77c"
+    }
+   ]
+  },
+  {
+   "slug": "law-69",
+   "short": "9/68",
+   "title": "މިލްކުވެރިކަން ބަދަލުކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/69",
+   "versions": [
+    {
+     "from": "1979-04-04",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/69",
+     "sha256": "940733588945865607807fe507ad9be95ed895b3f98e7fd6fc7488fc2033a0e8"
+    }
+   ]
+  },
+  {
+   "slug": "law-70",
+   "short": "4/69ޖ",
+   "title": "ދިވެހިރާއްޖޭގެ ސިޓިޒެންޝިޕް ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/70",
+   "versions": [
+    {
+     "from": "1998-04-05",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/70",
+     "sha256": "4d7512a7efd64c41e8e20987e9a4a32cb974f8bbe715a2848b2f1ebcb8082589"
+    }
+   ]
+  },
+  {
+   "slug": "law-76",
+   "short": "16/2014",
+   "title": "ޖިންސީ ފުރައްސާރަކުރުމާއި ގޯނާކުރުން ހުއްޓުވުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/76",
+   "versions": [
+    {
+     "from": "2014-05-13",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/76",
+     "sha256": "f4cac5ba4c75dee8084e0eaf7e49c865a7618c6bb6db0b1dd3ffb7f20e4eb7eb"
+    }
+   ]
+  },
+  {
+   "slug": "law-77",
+   "short": "10/2014",
+   "title": "މަނީ ލޯންޑްރިންގ އަދި ޓެރަރިޒަމަށް ފައިނޭންސްކުރުން ހުއްޓުވުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/77",
+   "versions": [
+    {
+     "from": "2014-10-13",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/77",
+     "sha256": "b60e3a2d1414263c125c65c35d1dba3a3a3813a169881dd10bc2e1c5e63a163f"
+    }
+   ]
+  },
+  {
+   "slug": "law-80",
+   "short": "6/91",
+   "title": "މުދާ ވިއްކުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/80",
+   "versions": [
+    {
+     "from": "1991-09-01",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/80",
+     "sha256": "e3419c1c708d12de4ef6d1fa8c259c37a47b07b496e0b1c01567ed298a56f4f2"
+    }
+   ]
+  },
+  {
+   "slug": "law-81",
+   "short": "15/82",
+   "title": "އިންޓަރނޭޝަނަލް ފިނޭންސް ކޯޕަރޭޝަންގެ މެންބަރަކަށް ދިވެހިރާއްޖެ ވުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/81",
+   "versions": [
+    {
+     "from": "1982-09-06",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/81",
+     "sha256": "92bc85f5f1fe1b4c0c302bbe32d45e7c114012de23faf350bb8887573d738f6c"
+    }
+   ]
+  },
+  {
+   "slug": "law-82",
+   "short": "4/93",
+   "title": "ދިވެހިރާއްޖޭގެ ތިމާވެށި ރައްކާތެރިކޮށް ދެމެހެއްޓުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/82",
+   "versions": [
+    {
+     "from": "2021-11-28",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/82",
+     "sha256": "a15e6824a2d6fa6430e653d7186e62edb9e48236c866128745082f7ac827976b"
+    }
+   ]
+  },
+  {
+   "slug": "law-84",
+   "short": "6/94",
+   "title": "ދިވެހިރައްޔިތުންގެ ދީނީ އެއްބައިވަންތަކަން ޙިމާޔަތް ކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/84",
+   "versions": [
+    {
+     "from": "2016-11-24",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/84",
+     "sha256": "39ade2ad40a4227d7579a95138469d55e82c1d58000a634dd2d1ee4d0547d186"
+    }
+   ]
+  },
+  {
+   "slug": "law-85",
+   "short": "9/93",
+   "title": "ރަހުނާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/85",
+   "versions": [
+    {
+     "from": "1993-12-16",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/85",
+     "sha256": "e0eb40c592b04ef43274a0da0b1064210bb0b82f3cc61994f508621f0ef65466"
+    }
+   ]
+  },
+  {
+   "slug": "law-86",
+   "short": "16/95",
+   "title": "ފައިސާއަށް ބަދަލު ކުރެވޭ ގޮތުގައި ގެންގުޅޭ ލިޔުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/86",
+   "versions": [
+    {
+     "from": "2002-11-21",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/86",
+     "sha256": "298f757045f101d902b3d89a3f363a5490ab72ca32562551eea42560f1827989"
+    }
+   ]
+  },
+  {
+   "slug": "law-88",
+   "short": "4/75",
+   "title": "ރާއްޖެއަށް ގެނައުން މަނާތަކެތީގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/88",
+   "versions": [
+    {
+     "from": "1995-07-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/88",
+     "sha256": "15e0c49efc2d50e6f9b2736943687e738c43b349f98a52800dcc53253837fb86"
+    }
+   ]
+  },
+  {
+   "slug": "law-90",
+   "short": "2/2005",
+   "title": "ވަޒީރުންނާ ސުވާލުކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/90",
+   "versions": [
+    {
+     "from": "2005-08-25",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/90",
+     "sha256": "a2b9b50c92c86c8b46e00d633cba270717f3b38da94ff99c1c76754d17c97e3f"
+    }
+   ]
+  },
+  {
+   "slug": "law-91",
+   "short": "2/2006",
+   "title": "ދިވެހިރާއްޖޭގެ މާލީ ސެކިއުރިޓީޒްއާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/91",
+   "versions": [
+    {
+     "from": "2024-12-03",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/91",
+     "sha256": "948dcc4916849aab0e69d4d80142b2829249d3c548c79b285f17d1a5ed050f75"
+    }
+   ]
+  },
+  {
+   "slug": "law-92",
+   "short": "3/2006",
+   "title": "ދައުލަތުގެ މާލިއްޔަތުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/92",
+   "versions": [
+    {
+     "from": "2023-03-15",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/92",
+     "sha256": "7f2d741933f2a1f6cb3e60ffc9f8ad9dd81a545492b914e5044787eea96e7aa3"
+    }
+   ]
+  },
+  {
+   "slug": "law-94",
+   "short": "5/2006",
+   "title": "ޕޯސްޓުގެ ޚިދްމަތުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/94",
+   "versions": [
+    {
+     "from": "2022-12-21",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/94",
+     "sha256": "81bdb1b62b95d35a72894b8b19900d9dd73d2907270e81d335d9df21b824a1fb"
+    }
+   ]
+  },
+  {
+   "slug": "law-95",
+   "short": "2/2014",
+   "title": "އިޖްތިމާޢީ ރައްކާތެރިކަމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/95",
+   "versions": [
+    {
+     "from": "2014-07-12",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/95",
+     "sha256": "e318f2a2767856d4a3d5fa68664e871ec320e5fa98687ab6bfdc44bbf90e338b"
+    }
+   ]
+  },
+  {
+   "slug": "law-96",
+   "short": "1/2014",
+   "title": "މަޢުލޫމާތު ހޯދައި ލިބިގަތުމުގެ ޙައްޤުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/96",
+   "versions": [
+    {
+     "from": "2014-07-12",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/96",
+     "sha256": "de775fd84c70d2e0e7c678c15cdd81a86c8525bbee745d6c5cc133e226d323d9"
+    }
+   ]
+  },
+  {
+   "slug": "law-97",
+   "short": "14/2013",
+   "title": "ދިވެހިރާއްޖޭގެ ޖަލުތަކާއި ޕެރޯލްގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/97",
+   "versions": [
+    {
+     "from": "2018-12-20",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/97",
+     "sha256": "135749f2ff76309b8844c8d307a7da1989c3f1cb2e531bf5b83900b69ae26a05"
+    }
+   ]
+  },
+  {
+   "slug": "law-98",
+   "short": "13/2013",
+   "title": "އެންޓި ޓޯޗަރ ޤާނޫނު 2013",
+   "url": "https://mvlaw.gov.mv/en/legislations/98",
+   "versions": [
+    {
+     "from": "2014-03-23",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/98",
+     "sha256": "d4c678db7af0af432ba3f5f0e4dec4778cd13d4e5cfdc40970ec1bf7cf0c4d69"
+    }
+   ]
+  },
+  {
+   "slug": "law-99",
+   "short": "12/2013",
+   "title": "މީހުން ޓްރެފިކްކުރުން ހުއްޓުވުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/99",
+   "versions": [
+    {
+     "from": "2021-04-28",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/99",
+     "sha256": "27fc5a7f67164654aa084ed7a99877a8d1de08815bcdc39bea409a80f871c7a6"
+    }
+   ]
+  },
+  {
+   "slug": "law-100",
+   "short": "10/2013",
+   "title": "އާބިޓްރޭޝަނުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/100",
+   "versions": [
+    {
+     "from": "2013-07-03",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/100",
+     "sha256": "7fa97f3d59c1c6db7bbd788e3573a41fec9093690149804dbeb4f0506cfebd84"
+    }
+   ]
+  },
+  {
+   "slug": "law-103",
+   "short": "5/2013",
+   "title": "ރައްޔިތުންގެ މަޖިލީހުގެ އިމްތިޔާޒުތަކާއި ބާރުތަކުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/103",
+   "versions": [
+    {
+     "from": "2021-06-30",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/103",
+     "sha256": "cdd0ad5e671b6a60acde0b5b63a07d521cfcf89b5e333bbb135d921477d7ebb9"
+    }
+   ]
+  },
+  {
+   "slug": "law-105",
+   "short": "1/2008",
+   "title": "ސިފައިންގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/105",
+   "versions": [
+    {
+     "from": "2021-03-11",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/105",
+     "sha256": "4288a2c7d127e55dcef6d07f3abc2430cf09752114fe0ab27b4ce93401121c78"
+    }
+   ]
+  },
+  {
+   "slug": "law-106",
+   "short": "8/2008",
+   "title": "އިލެކްޝަންސް ކޮމިޝަންގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/106",
+   "versions": [
+    {
+     "from": "2024-11-26",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/106",
+     "sha256": "9d32fbddc9420008fddaf677b1c4abea2a4229784d8631ecc44165067fc1479c"
+    }
+   ]
+  },
+  {
+   "slug": "law-107",
+   "short": "9/2008",
+   "title": "ޕްރޮސިކިއުޓަރ ޖެނެރަލްގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/107",
+   "versions": [
+    {
+     "from": "2020-09-16",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/107",
+     "sha256": "adfaa9cc6fbd4dffe8fcb9503cca1c46d5ba0755c850cac9a48d2895d0faa846"
+    }
+   ]
+  },
+  {
+   "slug": "law-108",
+   "short": "12/2008",
+   "title": "ރިޔާސީ އިންތިޚާބުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/108",
+   "versions": [
+    {
+     "from": "2023-06-22",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/108",
+     "sha256": "f9b0292db7b35a52789a8445d1bec10b8461d2c248ccec452ef7bb05ecde64be"
+    }
+   ]
+  },
+  {
+   "slug": "law-109",
+   "short": "2/2008",
+   "title": "ވަޒީފާއާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/109",
+   "versions": [
+    {
+     "from": "2026-03-08",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/109",
+     "sha256": "53fba2aed6f08129d8c56d3b14fdbfbebab45538b4ec98521aceac4ad7e26f78"
+    }
+   ]
+  },
+  {
+   "slug": "law-113",
+   "short": "8/2009",
+   "title": "ދިވެހިރާއްޖޭގެ ޕެންޝަނާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/113",
+   "versions": [
+    {
+     "from": "2026-05-21",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/113",
+     "sha256": "d8a76c7747fb72bef831df436254115532c9b87258d673c1bcacd14ae1e08204"
+    }
+   ]
+  },
+  {
+   "slug": "law-114",
+   "short": "3/2010",
+   "title": "ޓެކްސް ނެގުމާބެހޭ އިދާރީ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/114",
+   "versions": [
+    {
+     "from": "2026-08-31",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/114",
+     "sha256": "9ed2dd672fc8138fa1a868402e04b233410809c4f1438f97f35540d6d6dc19bc"
+    }
+   ]
+  },
+  {
+   "slug": "law-116",
+   "short": "15/2010",
+   "title": "ދުންފަތް ކޮންޓްރޯލުކުރުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/116",
+   "versions": [
+    {
+     "from": "2025-11-01",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/116",
+     "sha256": "4ed471758f52f935362faa33a78c13a994b412e47db66d004510b504376d91f1"
+    }
+   ]
+  },
+  {
+   "slug": "law-119",
+   "short": "22/2010",
+   "title": "ދިވެހިރާއްޖޭގެ ކޯޓުތަކުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/119",
+   "versions": [
+    {
+     "from": "2022-07-17",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/119",
+     "sha256": "62d2adfa0f03a26a5e404e9f594d9def42a51e94097a3612a678c5a4db110c1c"
+    }
+   ]
+  },
+  {
+   "slug": "law-120",
+   "short": "23/2010",
+   "title": "ކޮޕީރައިޓާއި އެއާގުޅޭ އެހެނިހެން ޙައްޤުތަކުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/120",
+   "versions": [
+    {
+     "from": "2025-03-10",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/120",
+     "sha256": "c945a6bd89c8c97c6e2647aa0d91013f5b793de96e11b99d4df2d65526ae8d76"
+    }
+   ]
+  },
+  {
+   "slug": "law-121",
+   "short": "3/2011",
+   "title": "ދިވެހިރާއްޖޭގެ ޤައުމީ ޔުނިވަރސިޓީގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/121",
+   "versions": [
+    {
+     "from": "2019-08-05",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/121",
+     "sha256": "d479c0b26a70ca045e7ea09b96beb5ae73e7e4bd1978ee8f98732ead5f8bac0e"
+    }
+   ]
+  },
+  {
+   "slug": "law-122",
+   "short": "3/2013",
+   "title": "ދައުލަތުގެ ވިޔަފާރި ތަންތަން ޕްރައިވަޓައިޒްކުރުމާއި ކޯޕަރަޓައިޒްކުރުމާއި އަދި  މޮނިޓަރކޮށް އިވެލުއޭޓްކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/122",
+   "versions": [
+    {
+     "from": "2013-01-17",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/122",
+     "sha256": "a3797fb606b5c7bb59237e7c18ab95450430f69b7ab8f190837cff500904509e"
+    }
+   ]
+  },
+  {
+   "slug": "law-123",
+   "short": "1/2013",
+   "title": "ޞުލްޙަވެރިކަމާއެކު އެއްވެއުޅުމުގެ މިނިވަންކަމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/123/consolidations/132",
+   "versions": [
+    {
+     "from": "2013-01-10",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/123/consolidations/132",
+     "sha256": "1bbf72068c517fe6bf2ad7e3c21bc310698fdecd9f1bb0ce06e7b2de2aecd616"
+    },
+    {
+     "from": "2016-08-23",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/123",
+     "sha256": "874847a9b24e8ce7afeceeeea82138345fc91bda3bc0e3cbbd5a4ceaa3c05e63"
+    }
+   ]
+  },
+  {
+   "slug": "law-124",
+   "short": "8/2011",
+   "title": "ދިވެހިރާއްޖޭގެ ކަސްޓަމްސްގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/124",
+   "versions": [
+    {
+     "from": "2011-05-11",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/124",
+     "sha256": "75c74a50bfaa21f6f2a006751abad8316fb7a072c5d823caf2398ba6642f5446"
+    }
+   ]
+  },
+  {
+   "slug": "law-127",
+   "short": "16/2011",
+   "title": "ދިވެހިރާއްޖޭގެ ޤައުމީ އަރުޝީފުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/127",
+   "versions": [
+    {
+     "from": "2011-12-31",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/127",
+     "sha256": "2916e88a672446525be2e859f7fbd965f3252e3b1837b685f0978c1ae9657d96"
+    }
+   ]
+  },
+  {
+   "slug": "law-128",
+   "short": "12/2016",
+   "title": "ޖިނާއީ އިޖުރާއަތުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/128/consolidations/1053",
+   "versions": [
+    {
+     "from": "2016-11-24",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/128/consolidations/1053",
+     "sha256": "3547572b45717085c34b0f828a52b188237de8294ca4eaf7e2c2fec61dcef308"
+    },
+    {
+     "from": "2017-01-02",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/128/consolidations/992",
+     "sha256": "722e76a375d181108fcecff54308bfc5efff0e7e74a10e674524924fc0b0ae1f"
+    },
+    {
+     "from": "2020-07-07",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/128/consolidations/1054",
+     "sha256": "b82bd1e60b4e832664110ba74b81812df850d4d8307d8ac1fe9301f6d33d9629"
+    },
+    {
+     "from": "2020-09-22",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/128/consolidations/1080",
+     "sha256": "e499bc4aee5baff1f8f8a89c6d4f2a40f659218237fb0490f4a0602d2b863e1d"
+    },
+    {
+     "from": "2022-11-24",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/128/consolidations/1101",
+     "sha256": "ca2ea5bedc8649d113d870b067df45359fb6d8ebcdb7250d165ceb9350fafdce"
+    },
+    {
+     "from": "2024-12-17",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/128",
+     "sha256": "5a6b6c07ca639e2f5b82f6db133a58d6f70459395b1e5c620aba14e108ec21a5"
+    }
+   ]
+  },
+  {
+   "slug": "law-129",
+   "short": "11/2016",
+   "title": "ދައުލަތުގެ މުސާރައިގެ ސިޔާސަތުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/129",
+   "versions": [
+    {
+     "from": "2016-10-28",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/129",
+     "sha256": "8466622cc26abbe82fd62c03a782fabb4ca00f1fdf792d143daeea9c5d4358c6"
+    }
+   ]
+  },
+  {
+   "slug": "law-130",
+   "short": "18/2016",
+   "title": "ޖެންޑަރ އިކުއަލިޓީގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/130",
+   "versions": [
+    {
+     "from": "2017-02-23",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/130",
+     "sha256": "97393c012b4b513b0262466bc7e9ac2461a55915af74756b86e30fc6a71d2efb"
+    }
+   ]
+  },
+  {
+   "slug": "law-131",
+   "short": "29/2016",
+   "title": "ދިވެހިރާއްޖޭގެ އެއަރޕޯޓަކުން ދިވެހިރާއްޖޭން ބޭރަށް ފުރާ ފަސިންޖަރުންގެ  އަތުން ޓެކްސްއާއި ފީ ނެގުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/131",
+   "versions": [
+    {
+     "from": "2024-11-05",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/131",
+     "sha256": "54a5f26b705f041318377e7872aa1b262f189c58fd1e101003ab1cad144f0a11"
+    }
+   ]
+  },
+  {
+   "slug": "law-132",
+   "short": "4/2017",
+   "title": "ޢިމާރާތްކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/132",
+   "versions": [
+    {
+     "from": "2017-10-23",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/132",
+     "sha256": "5266279ca4a078916b9e24e132cba8180e81e39ad9d83a15d38b9a396d98b51b"
+    }
+   ]
+  },
+  {
+   "slug": "law-135",
+   "short": "4/2019",
+   "title": "ރިޔާސީ ކޮމިޝަންތަކުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/135",
+   "versions": [
+    {
+     "from": "2019-06-24",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/135",
+     "sha256": "cbadd4988a65a9e1f7125bf50ccd65e9a8dbd5c76f853705578a9cc14854facb"
+    }
+   ]
+  },
+  {
+   "slug": "law-136",
+   "short": "5/2019",
+   "title": "ދިވެހިރާއްޖޭގެ ޤާނޫނީ ފަންނުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/136",
+   "versions": [
+    {
+     "from": "2024-09-03",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/136",
+     "sha256": "262713a86214ea0c2d74877f357e6ae7601e67dfba93a41b865b76953f4ffdcf"
+    }
+   ]
+  },
+  {
+   "slug": "law-137",
+   "short": "12/2019",
+   "title": "ދިވެހިރާއްޖޭގެ ސަގާފީ ތަރިކައިގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/137",
+   "versions": [
+    {
+     "from": "2019-09-12",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/137",
+     "sha256": "24593b75b162fdf2e274762fe7b113dbfda6d1e2767afc9f21d3814cc979187d"
+    }
+   ]
+  },
+  {
+   "slug": "law-139",
+   "short": "16/2019",
+   "title": "ވިސްލްބްލޯކުރާ ފަރާތްތައް ރައްކާތެރިކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/139",
+   "versions": [
+    {
+     "from": "2019-10-17",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/139",
+     "sha256": "3b451a6318d76b828dcbb169f0edfb30b7c37250c858efd841f772b7fc0a336f"
+    }
+   ]
+  },
+  {
+   "slug": "law-140",
+   "short": "18/2019",
+   "title": "ކުޑަކުދިންގެ ޢަދުލުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/140",
+   "versions": [
+    {
+     "from": "2020-12-24",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/140",
+     "sha256": "3ac89bc3bcccda4bc9971d532860e75aab2f6ea07ad0233b814df33107d058e9"
+    }
+   ]
+  },
+  {
+   "slug": "law-141",
+   "short": "19/2019",
+   "title": "ކުޑަކުދިންގެ ޙައްޤުތައް ރައްކާތެރިކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/141",
+   "versions": [
+    {
+     "from": "2020-02-20",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/141",
+     "sha256": "919658e81b7aeb5cd7454c163e9f4ef023371ae01ac5b3c772c7cca22856987c"
+    }
+   ]
+  },
+  {
+   "slug": "law-142",
+   "short": "21/2019",
+   "title": "ދަނޑުވެރިކަމުގައި ބޭނުންކުރާ ޕެސްޓިސައިޑް ކޮންޓްރޯލްކުރުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/142",
+   "versions": [
+    {
+     "from": "2020-06-08",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/142",
+     "sha256": "15c806d7812404e637bb558dff8fcc9b74260b423680cbde0712632afb1878b4"
+    }
+   ]
+  },
+  {
+   "slug": "law-144",
+   "short": "3/2020",
+   "title": "ލޯކަލް ކައުންސިލްތަކުގެ އިންތިޚާބުގެ ޚާއްޞަ ޤާނޫނު 2020",
+   "url": "https://mvlaw.gov.mv/en/legislations/144",
+   "versions": [
+    {
+     "from": "2021-01-21",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/144",
+     "sha256": "75b1518505d487767b50413f512b3e8a39333503e83880f35494db24dd8a6247"
+    }
+   ]
+  },
+  {
+   "slug": "law-145",
+   "short": "5/2020",
+   "title": "ދިވެހިރާއްޖޭގެ އިދާރީ ދާއިރާތައް ލާމަރުކަޒީ އުޞޫލުން ހިންގުން ކަށަވަރުކުރުމުގެ ޚާއްޞަ ޤާނޫނު 2020",
+   "url": "https://mvlaw.gov.mv/en/legislations/145",
+   "versions": [
+    {
+     "from": "2020-09-22",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/145",
+     "sha256": "46782bc81be0caca9826c38891c5b3a607b639c1764242f30c988c1aa44e85e4"
+    }
+   ]
+  },
+  {
+   "slug": "law-146",
+   "short": "11/2020",
+   "title": "ވިޔަފާރީގެ ދާއިރާގައި ވާދަވެރިކަން އުފައްދައި ދެމެހެއްޓުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/146",
+   "versions": [
+    {
+     "from": "2021-02-28",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/146",
+     "sha256": "45f647d81fa37b74c6e95d10c9ba089fb53b642ba707bdac9ea572a4c874fd17"
+    }
+   ]
+  },
+  {
+   "slug": "law-147",
+   "short": "12/2020",
+   "title": "މުދާ ގަންނަ ފަރާތްތަކާއި ޚިދުމަތް ލިބިގަންނަ ފަރާތްތައް ޙިމާޔަތްކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/147",
+   "versions": [
+    {
+     "from": "2021-02-28",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/147",
+     "sha256": "cdfcf187f94817e613983858ab32c0cbcfd5bca347f47ce9acb124afa265092d"
+    }
+   ]
+  },
+  {
+   "slug": "law-148",
+   "short": "13/2020",
+   "title": "ދިވެހިރާއްޖޭގެ ޗާޓަރޑް އެކައުންޓެންޓުންގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/148",
+   "versions": [
+    {
+     "from": "2020-09-08",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/148",
+     "sha256": "b4113cc568aae4b7bbd60ec13384db8ed3e59df2c0f7408a9fea1e0d3f5fe67b"
+    }
+   ]
+  },
+  {
+   "slug": "law-149",
+   "short": "20/2020",
+   "title": "ޢާންމު ޞިއްޙަތުގެ ކުއްލި ނުރައްކަލުގެ ޤާނޫނު 2020",
+   "url": "https://mvlaw.gov.mv/en/legislations/149",
+   "versions": [
+    {
+     "from": "2020-09-22",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/149",
+     "sha256": "41c8946345bb01b1ddbafac7beffa02c7c7a060ee1f398e198b0f39c83c676c2"
+    }
+   ]
+  },
+  {
+   "slug": "law-150",
+   "short": "24/2020",
+   "title": "ތަޢުލީމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/150",
+   "versions": [
+    {
+     "from": "2021-08-10",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/150",
+     "sha256": "9c4e2198c5eef4e844380868bc16496fd0b06cac9a439eba3dc8f4b065aca33c"
+    }
+   ]
+  },
+  {
+   "slug": "law-151",
+   "short": "26/2020",
+   "title": "ޔުޓިލިޓީ ރެގިއުލޭޓަރީ އޮތޯރިޓީގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/151",
+   "versions": [
+    {
+     "from": "2026-08-23",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/151",
+     "sha256": "a3a6b85d853783f23b6988d688c525706327fcc7d09e20649bce5325f174c896"
+    }
+   ]
+  },
+  {
+   "slug": "law-152",
+   "short": "28/2020",
+   "title": "އިންތިޤާލީ އިންސާފުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/152",
+   "versions": [
+    {
+     "from": "2020-12-17",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/152",
+     "sha256": "fd07758cb85853f06703ee4adb09a26415166ab659dc010dc7d4099d3db9f2d8"
+    }
+   ]
+  },
+  {
+   "slug": "law-153",
+   "short": "34/2020",
+   "title": "ދިވެހި ފުލުހުންގެ ޚިދުމަތުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/153",
+   "versions": [
+    {
+     "from": "2023-03-22",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/153",
+     "sha256": "d0b0179ef4165d74ed1b75c433868c74c52b7e6a8267cbee18f3ee42be3f537c"
+    }
+   ]
+  },
+  {
+   "slug": "law-154",
+   "short": "7/2021",
+   "title": "ދިވެހިރާއްޖޭގެ މަތީ ތަޢުލީމާއި ތަމްރީނުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/154",
+   "versions": [
+    {
+     "from": "2025-11-09",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/154",
+     "sha256": "5ecb223feed1d237d15b69fa9b99d390529f8ef652fae9640222f64fe9293982"
+    }
+   ]
+  },
+  {
+   "slug": "law-155",
+   "short": "8/2021",
+   "title": "ޤައުމީ ޕޭމަންޓް ސިސްޓަމްގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/155",
+   "versions": [
+    {
+     "from": "2026-08-23",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/155",
+     "sha256": "5118f1cb1ec11d2dcfe49656905fbc1cdd5366ea251d7270f4df2b1f774f7039"
+    }
+   ]
+  },
+  {
+   "slug": "law-156",
+   "short": "9/2021",
+   "title": "ކްލައިމެޓް އިމަރޖަންސީ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/156",
+   "versions": [
+    {
+     "from": "2021-05-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/156",
+     "sha256": "f1c0f17f1d0d085be233cfbe90ea21bd6c4c0fd5f34e1542a3c132e55299407f"
+    }
+   ]
+  },
+  {
+   "slug": "law-158",
+   "short": "16/2021",
+   "title": "ދިވެހިރާއްޖޭގެ ތަފާސްހިސާބުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/158",
+   "versions": [
+    {
+     "from": "2021-07-20",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/158",
+     "sha256": "ebcd429b223b85365c79cbe411b361aa43cfd57a1223e8f9db0a7829bd955ec4"
+    }
+   ]
+  },
+  {
+   "slug": "law-159",
+   "short": "18/2021",
+   "title": "ދިވެހިރާއްޖޭގެ ހަކަތައިގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/159",
+   "versions": [
+    {
+     "from": "2021-10-11",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/159",
+     "sha256": "0cdba08d976635e2c196ce84ae15e3b6fefb107e444574cc0c159a83b6e68b45"
+    }
+   ]
+  },
+  {
+   "slug": "law-160",
+   "short": "20/2021",
+   "title": "ދިވެހިރާއްޖޭގެ ފޮރިން ސަރވިސްގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/160",
+   "versions": [
+    {
+     "from": "2022-05-14",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/160",
+     "sha256": "14729ab1d5daf75e466a794d9d6e5fe438c91f8c629c7e8a42b9b8f12e01bfb2"
+    }
+   ]
+  },
+  {
+   "slug": "law-161",
+   "short": "21/2021",
+   "title": "ދިރިއުޅުމަށްޓަކައި ގޯތިގެދޮރު ކުއްޔަށްދިނުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/161",
+   "versions": [
+    {
+     "from": "2021-11-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/161",
+     "sha256": "2ec4b52935b2bed5009e7614775f9ca36c2aa104864fcfa3ab0653c8677dabbb"
+    }
+   ]
+  },
+  {
+   "slug": "law-163",
+   "short": "32/2021",
+   "title": "މަދަނީ އިޖުރާއަތުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/163",
+   "versions": [
+    {
+     "from": "2022-06-16",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/163",
+     "sha256": "7dc782ae32f8dee2d79915c14f47396bdfe3dda46c424e9aaa06235de2c53669"
+    }
+   ]
+  },
+  {
+   "slug": "law-164",
+   "short": "33/2021",
+   "title": "އެއްމެދު ޢިމާރާތުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/164",
+   "versions": [
+    {
+     "from": "2022-03-20",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/164",
+     "sha256": "95363d5cb965c2f0e381f72aeb3054025e9110a0394e3485d31a8092137d2f6f"
+    }
+   ]
+  },
+  {
+   "slug": "law-165",
+   "short": "12/2022",
+   "title": "ފަންނީ އުފެއްދުންތައް ގިންތިކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/165",
+   "versions": [
+    {
+     "from": "2022-07-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/165",
+     "sha256": "c89fd1ad9583d86bbcefaf0b4207c0908a4564a2a7b44e327d3c63a7b141f14b"
+    }
+   ]
+  },
+  {
+   "slug": "law-167",
+   "short": "11/2022",
+   "title": "ހެއްކާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/167",
+   "versions": [
+    {
+     "from": "2023-01-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/167",
+     "sha256": "fa759ef5855c90f4a87aa0206143d59f91523570c565661ad9ada35ae73e5177"
+    }
+   ]
+  },
+  {
+   "slug": "law-168",
+   "short": "8/2020",
+   "title": "ފެނާއި ނަރުދަމާގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/168",
+   "versions": [
+    {
+     "from": "2025-08-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/168",
+     "sha256": "d6f743964c9a2311c14b978357fea937fe09acfa3543bc3908d29d6240868c81"
+    }
+   ]
+  },
+  {
+   "slug": "law-171",
+   "short": "2/2012",
+   "title": "މޯލްޑިވްސް ސިވިލް އޭވިއޭޝަން އޮތޯރިޓީގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/171",
+   "versions": [
+    {
+     "from": "2012-01-11",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/171",
+     "sha256": "d6841bdc6fd6b1b6bee90c4764257f14df9c85a3f2ff22587e89f7eb8c460581"
+    }
+   ]
+  },
+  {
+   "slug": "law-172",
+   "short": "3/2012",
+   "title": "ގެވެށި އަނިޔާ ހުއްޓުވުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/172",
+   "versions": [
+    {
+     "from": "2012-04-23",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/172",
+     "sha256": "4ce643fe217245facc0466e00217e5bec2e46378aa42c6a1945b6b6001d7b195"
+    }
+   ]
+  },
+  {
+   "slug": "law-173",
+   "short": "4/2012",
+   "title": "ތެލެސީމިއާ ކޮންޓްރޯލްކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/173",
+   "versions": [
+    {
+     "from": "2012-05-10",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/173",
+     "sha256": "afed7c4b50921fea44a75882d32e7c6ed143ee5cba0fd45e397b5a3b4433ad6c"
+    }
+   ]
+  },
+  {
+   "slug": "law-174",
+   "short": "7/2012",
+   "title": "ޢާންމު ޞިއްޙަތު ރައްކާތެރިކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/174",
+   "versions": [
+    {
+     "from": "2021-05-11",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/174",
+     "sha256": "d5077323ac425358ebaab9a994bc60bf17de251d82623f4fceabbdee1841c854"
+    }
+   ]
+  },
+  {
+   "slug": "law-175",
+   "short": "6/96",
+   "title": "ދިވެހިރާއްޖޭގެ ކަނޑުގެ ސަރަޙައްދުތަކާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/175",
+   "versions": [
+    {
+     "from": "2014-07-24",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/175",
+     "sha256": "3ea522fdd445c4e19283245801949597fbf129a047881f852b9eeea4eca5293c"
+    }
+   ]
+  },
+  {
+   "slug": "law-176",
+   "short": "1/2006",
+   "title": "ޤައުމީ ކުތުބުޚާނާއަށް ތަކެތި ޖަމާކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/176",
+   "versions": [
+    {
+     "from": "2006-01-19",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/176",
+     "sha256": "358ff491ca294b3ad01dbf4730602a74b27d6dbaaae2e111ab1037232d74af34"
+    }
+   ]
+  },
+  {
+   "slug": "law-177",
+   "short": "6/2006",
+   "title": "ހިޔުމަން ރައިޓްސް ކޮމިޝަނުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/177",
+   "versions": [
+    {
+     "from": "2020-09-22",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/177",
+     "sha256": "ee2d70f7d7553ca52407490799c7e60afb64e481b0cefe778f91b7ca82f45518"
+    }
+   ]
+  },
+  {
+   "slug": "law-178",
+   "short": "1/2007",
+   "title": "ދިވެހިރާއްޖޭގެ އިމިގްރޭޝަންގެ ޤާނޫނު ",
+   "url": "https://mvlaw.gov.mv/en/legislations/178",
+   "versions": [
+    {
+     "from": "2025-04-15",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/178",
+     "sha256": "d73e1f5b3ba7ee5c8022a1ed3a10a48cca0a7e7363fd1ce1e5c2acb930602336"
+    }
+   ]
+  },
+  {
+   "slug": "law-179",
+   "short": "3/2007",
+   "title": "ކޯޕަރޭޓިވް ސޮސައިޓީގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/179",
+   "versions": [
+    {
+     "from": "2007-10-01",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/179",
+     "sha256": "3b23a64aaa4a49dc4798be1c25b121276c9cd59441b41aeedd27ca92698cfdef"
+    }
+   ]
+  },
+  {
+   "slug": "law-180",
+   "short": "4/2007",
+   "title": "އޮޑިޓް ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/180",
+   "versions": [
+    {
+     "from": "2020-09-22",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/180",
+     "sha256": "97578804f42448ef85a3373cf13e9e9aba7becaec10beaeef67b32423c0ca6fa"
+    }
+   ]
+  },
+  {
+   "slug": "law-181",
+   "short": "5/2007",
+   "title": "ދިވެހި ސިވިލް ސަރވިސްގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/181",
+   "versions": [
+    {
+     "from": "2022-05-10",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/181",
+     "sha256": "2d10b9b20654e0bf73ec892af1d0ae09797e83a4a4860b21ac6766877df544cb"
+    }
+   ]
+  },
+  {
+   "slug": "law-182",
+   "short": "10/2008",
+   "title": "ޖުޑީޝަލް ސަރވިސް ކޮމިޝަނުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/182",
+   "versions": [
+    {
+     "from": "2022-11-03",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/182",
+     "sha256": "5f0fa25a0f4d6b253da212949dc1a3069a0a6850eb782360c73f86aa0df9609d"
+    }
+   ]
+  },
+  {
+   "slug": "law-183",
+   "short": "11/2008",
+   "title": "އިންތިޚާބުތަކާބެހޭ ޢާންމު ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/183",
+   "versions": [
+    {
+     "from": "2024-02-29",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/183",
+     "sha256": "e0ed24dcdbcc6b6c0c5272513724f9780068e62374770ab99aaab9a972a34619"
+    }
+   ]
+  },
+  {
+   "slug": "law-184",
+   "short": "13/2008",
+   "title": "އެންޓި-ކޮރަޕްޝަން ކޮމިޝަނުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/184",
+   "versions": [
+    {
+     "from": "2024-11-26",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/184",
+     "sha256": "67d90abf0d151bcbea9a2aa5532c8cc9888ee43b7e17a7d7ed346bd47392f42d"
+    }
+   ]
+  },
+  {
+   "slug": "law-185",
+   "short": "15/2008",
+   "title": "މޯލްޑިވްސް މީޑިއާ ކައުންސިލުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/185",
+   "versions": [
+    {
+     "from": "2008-11-04",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/185",
+     "sha256": "0a337ad6694f1a6f1230a3f425c6955c92a21f7d18b849802327dd6cab70fb67"
+    }
+   ]
+  },
+  {
+   "slug": "law-186",
+   "short": "1/2009",
+   "title": "ރައްޔިތުންގެ މަޖިލީހުގެ އިންތިޚާބީ ދާއިރާތައް ކަނޑައެޅުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/186",
+   "versions": [
+    {
+     "from": "2009-02-10",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/186",
+     "sha256": "e013a4088139282c1cbf805febc645f2a8122ab4752c34c9cef8c877aeec672b"
+    }
+   ]
+  },
+  {
+   "slug": "law-188",
+   "short": "9/2009",
+   "title": "ރައީސުލްޖުމްހޫރިއްޔާކަން ކޮށްފައިވާ މީހަކަށް ދޭންޖެހޭ ރައްކާތެރިކަމާއި ޢިނާޔަތްތަކާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/188",
+   "versions": [
+    {
+     "from": "2025-12-06",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/188",
+     "sha256": "feef7634962c736ae2534be1da790d5fba0e5143e65aaec5af0cbef7bc03a919"
+    }
+   ]
+  },
+  {
+   "slug": "law-189",
+   "short": "11/2009",
+   "title": "ރައީސުލްޖުމްހޫރިއްޔާއާއި ރައީސުލްޖުމްހޫރިއްޔާގެ ނައިބުގެ މުސާރައާއި  އެހެނިހެން ޢިނާޔަތްތަކާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/189",
+   "versions": [
+    {
+     "from": "2014-04-24",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/189",
+     "sha256": "ebb795d7384dbf9814028fa87a7ffa00ef00a2424241545dd762596b4e3968f3"
+    }
+   ]
+  },
+  {
+   "slug": "law-190",
+   "short": "12/2009",
+   "title": "ކުޑަކުދިންނަށް ޖިންސީ ގޯނާކުރާ މީހުންނާމެދު ޚާއްޞަ އުސޫލުތަކަކަށް ޢަމަލުކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/190",
+   "versions": [
+    {
+     "from": "2009-11-12",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/190",
+     "sha256": "7044dd283556d5adb5827a4a9cbd3be2c5e60e8c54149291d074db9e23df5101"
+    }
+   ]
+  },
+  {
+   "slug": "law-192",
+   "short": "2/2010",
+   "title": "މަޢާފުދިނުމާއި އަދަބު ލުއިކޮށްދިނުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/192",
+   "versions": [
+    {
+     "from": "2014-12-02",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/192",
+     "sha256": "dcbe820c411ee85a079728720bf1f02dc891788eda23596533faf941b44e800c"
+    }
+   ]
+  },
+  {
+   "slug": "law-193",
+   "short": "7/2010",
+   "title": "ދިވެހިރާއްޖޭގެ އިދާރީ ދާއިރާތައް ލާމަރުކަޒީ އުޞޫލުން ހިންގުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/193",
+   "versions": [
+    {
+     "from": "2026-09-01",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/193",
+     "sha256": "084cb9bc669b0bd17d0f0f68581ac81287f9929218274fc85d2f9d5f2a8ffaa9"
+    }
+   ]
+  },
+  {
+   "slug": "law-194",
+   "short": "8/2010",
+   "title": "ނުކުޅެދުންތެރިކަން ހުންނަ މީހުންގެ ޙައްޤުތައް ރައްކާތެރިކުރުމާއި  މާލީ އެހީތެރިކަން ފޯރުކޮށްދިނުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/194",
+   "versions": [
+    {
+     "from": "2012-10-24",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/194",
+     "sha256": "462e3b0142af2f741d8a35374e771b0815c1e5daaafba099d62941e5a17f8de9"
+    }
+   ]
+  },
+  {
+   "slug": "law-195",
+   "short": "10/2010",
+   "title": "ލޯކަލް ކައުންސިލްތަކުގެ އިންތިޚާބުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/195",
+   "versions": [
+    {
+     "from": "2024-08-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/195",
+     "sha256": "f5e581b957fec45a7403b3329b288166f65780cec75a54e174bf48d6e37d1a09"
+    }
+   ]
+  },
+  {
+   "slug": "law-196",
+   "short": "11/2010",
+   "title": "ޢާންމު އިޖްތިމާޢީ މިންގަނޑުތަކާ ޚިލާފު ޢަމަލުތައް ހުއްޓުވުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/196",
+   "versions": [
+    {
+     "from": "2011-02-03",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/196",
+     "sha256": "9325a4d115a1c5f0c6d38dde90d4fc02688e80a46e6330bd65e0575c6ad34c55"
+    }
+   ]
+  },
+  {
+   "slug": "law-198",
+   "short": "24/2010",
+   "title": "ދިވެހިރާއްޖޭގެ ބޭންކިންގއާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/198",
+   "versions": [
+    {
+     "from": "2015-01-05",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/198",
+     "sha256": "71549d7ae860531b0aa005963c1eb19bbc32d91cbed386a58392d4af3d6649fb"
+    }
+   ]
+  },
+  {
+   "slug": "law-199",
+   "short": "4/2011",
+   "title": "މާނަކުރުމުގެ ހަމަތައް ބަޔާންކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/199",
+   "versions": [
+    {
+     "from": "2011-01-17",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/199",
+     "sha256": "48a268e3dbd9fb1dca9d3e15fb212f3cf8c79095ce6a86c368b2fc2b015d9af4"
+    }
+   ]
+  },
+  {
+   "slug": "law-200",
+   "short": "9/2011",
+   "title": "ދިވެހިރާއްޖޭގެ ޤައުމީ ބަހަށް އިސްކަންދިނުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/200",
+   "versions": [
+    {
+     "from": "2018-12-20",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/200",
+     "sha256": "0c2dbe47ff2770b3fcc05f9972bfa04d26b4bfa085a8d9a935c71f4282d7d055"
+    }
+   ]
+  },
+  {
+   "slug": "law-201",
+   "short": "12/2011",
+   "title": "ގަސްގަހާގެހި ޙިމާޔަތްކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/201",
+   "versions": [
+    {
+     "from": "2011-12-12",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/201",
+     "sha256": "eb6da3309e3d49299dcfcae5dbdc76291b0574ff6f3aa9224fb81c1ed455fcfe"
+    }
+   ]
+  },
+  {
+   "slug": "law-202",
+   "short": "6/2011",
+   "title": "އިދާރީ ދާއިރާތަކުގެ ވެރިކަންކުރާ ރަށް ކަނޑައެޅުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/202",
+   "versions": [
+    {
+     "from": "2011-04-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/202",
+     "sha256": "197e7ad1cd654d4ad2cdb789bcbba961b992e9d41fa4daad66783db2c8e0087d"
+    }
+   ]
+  },
+  {
+   "slug": "law-204",
+   "short": "13/2010",
+   "title": "ދިވެހިރާއްޖޭގެ ފަނޑިޔާރުންގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/204",
+   "versions": [
+    {
+     "from": "2022-03-10",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/204",
+     "sha256": "ace893288b5a7d1364ae09dc85de7491cc9c40fb5ac1c5f98a9803c1d2c2401e"
+    }
+   ]
+  },
+  {
+   "slug": "law-205",
+   "short": "16/2010",
+   "title": "ބްރޯޑްކާސްޓްކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/205",
+   "versions": [
+    {
+     "from": "2010-11-20",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/205",
+     "sha256": "3b8402eff09e5f7890f7b6122ac6eb3bd5074fa74a3cd4682ee4325873692215"
+    }
+   ]
+  },
+  {
+   "slug": "law-211",
+   "short": "24/2022",
+   "title": "ކުނި މެނޭޖުކުރުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/211",
+   "versions": [
+    {
+     "from": "2026-08-23",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/211",
+     "sha256": "fc0e60bdf54b5c074ae5ef04ef83128977c9eba9f381713bba7580c18b35c27c"
+    }
+   ]
+  },
+  {
+   "slug": "law-212",
+   "short": "23/2022",
+   "title": "އުފަންވުމާއި މަރުވުން ރަޖިސްޓަރީކުރުމާއި އުފަންދުވަހުގެ ސެޓްފިކެޓް އަދި ދިވެހިރައްޔިތެއްކަން އަންގައިދޭ ކާޑު ހެއްދުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/212",
+   "versions": [
+    {
+     "from": "2022-12-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/212",
+     "sha256": "1fe1d654fafea9ea176de7dc326b3cf42a4760b4a21e303957644b7f53765c4a"
+    }
+   ]
+  },
+  {
+   "slug": "law-235",
+   "short": "2/99",
+   "title": "ދިވެހިރާއްޖޭގެ ޓޫރިޒަމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/235",
+   "versions": [
+    {
+     "from": "2025-12-06",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/235",
+     "sha256": "66df45840209626034d17a909c983b7719ced31f24a0695696045e5ff9880a83"
+    }
+   ]
+  },
+  {
+   "slug": "law-271",
+   "short": "2/2024",
+   "title": "މަސައްކަތުގެ މާޙައުލުގެ ސަލާމަތާއި ޞިއްޙީ ރައްކާތެރިކަމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/271",
+   "versions": [
+    {
+     "from": "2024-04-02",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/271",
+     "sha256": "6e806e3d0dc38e3ace21df80033a40018b4ea0f3fdcd71ab14cc9ef529f92753"
+    }
+   ]
+  },
+  {
+   "slug": "law-273",
+   "short": "1/2024",
+   "title": "އިންޑަސްޓްރިއަލް ރިލޭޝަންސްއާގުޅޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/273",
+   "versions": [
+    {
+     "from": "2024-04-02",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/273",
+     "sha256": "360c4822ed62c77dd8f2f57880f9ff267362bcdfd916f9e228ccec394a9bad36"
+    }
+   ]
+  },
+  {
+   "slug": "law-275",
+   "short": "5/2024",
+   "title": "އެންޓި-ޑިފެކްޝަން ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/275",
+   "versions": [
+    {
+     "from": "2024-04-16",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/275",
+     "sha256": "3768926bfd03863de4260d95edb449c4c958f659190b82b67cc92ae9019c3172"
+    }
+   ]
+  },
+  {
+   "slug": "law-276",
+   "short": "6/2024",
+   "title": "ކާބޯތަކެތީގެ ރައްކާތެރިކަމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/276",
+   "versions": [
+    {
+     "from": "2024-08-23",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/276",
+     "sha256": "4a6c5b5df306d22a261585d8dbb327c9c83640444a6560019f9d94de40321773"
+    }
+   ]
+  },
+  {
+   "slug": "law-278",
+   "short": "11/2024",
+   "title": "ފޮރިން އިންވެސްޓްމަންޓްގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/278",
+   "versions": [
+    {
+     "from": "2024-12-03",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/278",
+     "sha256": "0dcbd9cfdcde786d28f7986d2e69853f6b4dd7c7842d090b598b1b42e7b5b06f"
+    }
+   ]
+  },
+  {
+   "slug": "law-279",
+   "short": "16/2024",
+   "title": "ބިނާވެށި ޕްލޭންކުރުމާއި ހިންގުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/279",
+   "versions": [
+    {
+     "from": "2024-12-08",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/279",
+     "sha256": "0cc4974257006a765faa73974d317671f0682d3618240f8e49960d8090386432"
+    }
+   ]
+  },
+  {
+   "slug": "law-280",
+   "short": "30/2024",
+   "title": "ދައުލަތުގެ ފިސްކަލް ޒިންމާގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/280",
+   "versions": [
+    {
+     "from": "2025-12-02",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/280",
+     "sha256": "7ff777f5a001b90b77a29577600dec3cff26faa1dd5d291679402c47e06c9bd7"
+    }
+   ]
+  },
+  {
+   "slug": "law-281",
+   "short": "28/2024",
+   "title": "އަރބަން ޑިވެލޮޕްމަންޓްގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/281",
+   "versions": [
+    {
+     "from": "2025-06-02",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/281",
+     "sha256": "8e0ef6cd011aec457dc4803d4f95d52c1c600257df3a6a911dc00f0bad0fe66a"
+    }
+   ]
+  },
+  {
+   "slug": "law-282",
+   "short": "29/2024",
+   "title": "ދައުލަތުގެ ދަރަންޏާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/282",
+   "versions": [
+    {
+     "from": "2025-06-03",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/282",
+     "sha256": "610613c3826be698f901830ac67f0f465c83e6bf43509e88f2a0185600104ec2"
+    }
+   ]
+  },
+  {
+   "slug": "law-283",
+   "short": "32/2024",
+   "title": "ބޭރު ފައިސާއާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/283",
+   "versions": [
+    {
+     "from": "2026-09-01",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/283",
+     "sha256": "16d0841117500e2ab80dbef10ec41a113e4269b4603355f9750a083d1480768c"
+    }
+   ]
+  },
+  {
+   "slug": "law-284",
+   "short": "7/2025",
+   "title": "ގޭންގުތަކުން ހިންގާ ކުށްތަކާއި އެނޫންވެސް ނުރައްކާތެރި ކުށްތައް ހުއްޓުވުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/284",
+   "versions": [
+    {
+     "from": "2025-08-25",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/284",
+     "sha256": "3320831f7a3a6e25ae542ab0e42a66c09609ccf1ef098594a177b718398c4581"
+    }
+   ]
+  },
+  {
+   "slug": "law-285",
+   "short": "8/2025",
+   "title": "ބަންޑާރަނައިބުގެ އޮފީހުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/285",
+   "versions": [
+    {
+     "from": "2025-08-27",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/285",
+     "sha256": "7a53b18b0842359bfc2397915e7f90c95471996b6e88be9dc80b087b396571d5"
+    }
+   ]
+  },
+  {
+   "slug": "law-286",
+   "short": "12/2025",
+   "title": "މޯލްޑިވްސް އިންޓެލެކްޗުއަލް ޕްރޮޕަރޓީ އޮފީހުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/286",
+   "versions": [
+    {
+     "from": "2026-01-01",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/286",
+     "sha256": "040b483abbf623f8ea87d59cb87ed5aaa50280910e880390f60402248d0684a0"
+    }
+   ]
+  },
+  {
+   "slug": "law-287",
+   "short": "13/2025",
+   "title": "އިންޝުއަރެންސްއާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/287",
+   "versions": [
+    {
+     "from": "2025-08-28",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/287",
+     "sha256": "21724a275d82a4ba22e2b0dea7a8a3627e32af38519cd7cc4b29a56a5b2bd2c4"
+    }
+   ]
+  },
+  {
+   "slug": "law-288",
+   "short": "15/2025",
+   "title": "ރައްޔިތުންގެ ޚިޔާލު ހޯދުމުގެ ޢާންމު ވޯޓު ނެގުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/288",
+   "versions": [
+    {
+     "from": "2025-09-16",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/288",
+     "sha256": "ac87d2ded2848afc92456aa1ee23a3704edfbef96cf008baf4b4d961b12c1b86"
+    }
+   ]
+  },
+  {
+   "slug": "law-289",
+   "short": "16/2025",
+   "title": "މޯލްޑިވްސް މީޑިއާ އެންޑް ބްރޯޑްކާސްޓިންގ ރެގިއުލޭޝަންގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/289",
+   "versions": [
+    {
+     "from": "2025-09-18",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/289",
+     "sha256": "ce6f46927c53f0bec874e9fc8971632966c4ac07d209c71dc7d49d23c412e1bb"
+    }
+   ]
+  },
+  {
+   "slug": "law-291",
+   "short": "27/2025",
+   "title": "ޒަކާތުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/291",
+   "versions": [
+    {
+     "from": "2026-01-01",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/291",
+     "sha256": "247409991fb356d01488a0b06e8cc5b82b1360ae99aea06d025febffae030015"
+    }
+   ]
+  },
+  {
+   "slug": "law-292",
+   "short": "1/2026",
+   "title": "ރީ-އެމްޕްލޯއިމަންޓްގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/292",
+   "versions": [
+    {
+     "from": "2026-02-08",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/292",
+     "sha256": "dfae3cb88df38cbeb4d3378b6edc0de96a4bfeff37d40e5954a406d959a43df6"
+    }
+   ]
+  },
+  {
+   "slug": "law-294",
+   "short": "25/2019",
+   "title": "އާމްދަނީން ޓެކްސް ނެގުމުގެ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/294",
+   "versions": [
+    {
+     "from": "2026-08-31",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/294",
+     "sha256": "a08c1ba0e9214f22b77665eee35e13abeaed5f5f4d7adb1ff139290a8829b45e"
+    }
+   ]
+  },
+  {
+   "slug": "law-296",
+   "short": "12/2026",
+   "title": "ފަޅުރަށާއި ފަޅު ކުއްޔަށްދިނުމާބެހޭ ޤާނޫނު",
+   "url": "https://mvlaw.gov.mv/en/legislations/296",
+   "versions": [
+    {
+     "from": "2026-10-01",
+     "units": 1,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/296",
+     "sha256": "41b26c875e59224a18615f2285a141fa552e4175b23f8d75ba88490e9c5401e1"
+    }
+   ]
   }
  ]
 }
