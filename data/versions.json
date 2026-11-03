@@ -146,6 +146,32 @@
      "sha256": "38c126f6583069d2b7b9447d2dfa2c5e36fbe968c27b7321ea465a085840dd5a"
     }
    ]
+  },
+  {
+   "slug": "family-act",
+   "short": "Family Act",
+   "title": "Family Act (Law No. 4/2000) (Dhivehi)",
+   "url": "https://mvlaw.gov.mv/en/legislations/93",
+   "versions": [
+    {
+     "from": "2001-07-01",
+     "units": 86,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/93/consolidations/286",
+     "sha256": "23f51142a142e3a2a3c7aa39b2f5e33f710d7214471dae4e5665db3ed346ac99"
+    },
+    {
+     "from": "2013-08-07",
+     "units": 86,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/93/consolidations/936",
+     "sha256": "8d6f724d72654baa7438f87bd19ee9236318f206acef3d290236c6b8a64d2aed"
+    },
+    {
+     "from": "2016-10-28",
+     "units": 86,
+     "source_url": "https://mvlaw.gov.mv/en/legislations/93/consolidations/943",
+     "sha256": "7789d45edae2d7617a45b2c2ca3a0a8f3665852e6c0faae6d8921059ba12233d"
+    }
+   ]
   }
  ]
 }
