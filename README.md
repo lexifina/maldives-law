@@ -10,6 +10,7 @@ The law of the Maldives as a git history: one file per provision, one commit per
 | `penal-code/` | Penal Code (Law No. 9/2014) (Dhivehi) | 7 | From 2015-04-13 to 2024-12-17 |
 | `contract-act/` | Contract Act (Law No. 4/1991) (Dhivehi) | 1 | From 1991-05-28 to 1991-05-28 |
 | `companies-act/` | Companies Act (Law No. 7/2023) (Dhivehi) | 2 | From 2024-01-01 to 2024-09-18 |
+| `family-act/` | Family Act (Law No. 4/2000) (Dhivehi) | 3 | From 2001-07-01 through amendments in force on 2013-08-07 and 2016-10-28 |
 
 Language: the official language, Dhivehi (right to left). The source site carries no English text of these laws, so none is included.
 
@@ -24,7 +25,7 @@ The amending laws credited to the Constitution are Law No. 16/2015, 20/2015, 9/2
 
 **Source**
 
-Maldives Laws, Attorney General's Office: <https://mvlaw.gov.mv/en/legislations/6> (Constitution, retrieved on 29 October 2026) and the pages of each statute in the table (retrieved on 30 October 2026).
+Maldives Laws, Attorney General's Office: <https://mvlaw.gov.mv/en/legislations/6> (Constitution, retrieved on 29 October 2026), the pages of the previously listed statutes (retrieved on 30 October 2026), and <https://mvlaw.gov.mv/en/legislations/93> (Family Act, retrieved on 3 November 2026).
 
 Nothing here is legal advice; for anything that matters, read the original. How the files were made is in [REPRODUCE.md](REPRODUCE.md).
 
