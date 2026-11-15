@@ -24,7 +24,8 @@ The text is in Dhivehi, in Thaana script, as mvlaw.gov.mv publishes it. An Engli
 
 - **[Ask Claude about Maldivian law](https://global-law.lexifina.com/v1/try_claude?country=maldives)**: opens Claude with a first question ready.
 - **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=maldives)**: the same question in ChatGPT.
-- **[Call the API in your browser](https://global-law.lexifina.com/v1/search_law?query=%DE%87%DE%A6%DE%80%DE%A6%DE%83%DE%A9+%DE%97%DE%AA%DE%87%DE%B0%DE%93%DE%A9&jurisdictions=maldives)**: a search of Maldivian law for "އަހަރީ ޗުއްޓީ" (annual leave), returned as JSON. See the [documentation here](https://lexifina.com/api/global-law).
+- **[Search Maldivian law on our site](https://lexifina.com/law?country=maldives&q=%DE%87%DE%A6%DE%80%DE%A6%DE%83%DE%A9+%DE%97%DE%AA%DE%87%DE%B0%DE%93%DE%A9)**: a search for "އަހަރީ ޗުއްޓީ" (annual leave), with each provision's text and its versions, no account needed.
+- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=%DE%87%DE%A6%DE%80%DE%A6%DE%83%DE%A9+%DE%97%DE%AA%DE%87%DE%B0%DE%93%DE%A9&jurisdiction=maldives)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
 
 Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Dhivehi or in English.
 
