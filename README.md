@@ -1,213 +1,85 @@
 # Maldives: law history in git
 
+
+The law of the Maldives as a git history: one file per article for the Constitution and four main statutes and one file per act for the other statutes, one commit per version (or per amending law, where several laws made one version) on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every line; `git log` lists every change to an article; picking a date gives the text in force that day.
+
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the Maldives' national law, which global-law reads at `maldives/national/acts/`.
 
-The law of the Maldives as a git history: one file per provision, one commit per amending law on the day its version took effect, and the amending law as each commit's author. `git blame` names the law behind every paragraph; picking a date gives the text in force that day, within the limits below. It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `mv/`.
+**What is in it now:** the Constitution and 174 statutes from the Attorney General's Office, with 205 versions in force from 1978 to 2026. The Constitution (9 versions, from 2008), the Penal Code (7), the Contract Act, the Companies Act (2) and the Family Act (3) are kept article by article with their amendments; the other 170 statutes are one file each, 3 of them with earlier versions. [`REPRODUCE.md`](REPRODUCE.md) lists every act with its versions, and [`data/versions.json`](data/versions.json) gives each version's source page.
 
-**What is in it now**
+The Constitution and those four statutes are in named folders, one file per article (`constitution/art-109.md` is Article 109 of the Constitution, who may be elected President); the other statutes are in `law-<id>/text.md`, by the act's number on mvlaw.gov.mv (`law-109/text.md` is the ވަޒީފާއާބެހޭ ޤާނޫނު, the Employment Act, Law No. 2/2008). Each folder's `README.md` lists its provisions.
 
-| Folder | Act | Versions | History |
-| --- | --- | ---: | --- |
-| `constitution/` | The Constitution of the Republic of Maldives (Dhivehi) | 9 | From the Constitution as ratified on 7 August 2008, through the eight consolidated versions the Attorney General's Office publishes, to the latest (in force 1 December 2025) |
-| `penal-code/` | Penal Code (Law No. 9/2014) (Dhivehi) | 7 | From 2015-04-13 to 2024-12-17 |
-| `contract-act/` | Contract Act (Law No. 4/1991) (Dhivehi) | 1 | From 1991-05-28 to 1991-05-28 |
-| `companies-act/` | Companies Act (Law No. 7/2023) (Dhivehi) | 2 | From 2024-01-01 to 2024-09-18 |
-| `family-act/` | Family Act (Law No. 4/2000) (Dhivehi) | 3 | From 2001-07-01 through amendments in force on 2013-08-07 and 2016-10-28 |
+The text is in Dhivehi, in Thaana script, as mvlaw.gov.mv publishes it. An English translation is not part of this record.
 
-Language: the official language, Dhivehi (right to left). The source site carries no English text of these laws, so none is included.
+## Questions as git commands
 
-The amending laws credited to the Constitution are Law No. 16/2015, 20/2015, 9/2018, 3/2019, 22/2019, 4/2020, 25/2024 and 21/2025; those credited to each statute are the laws named in its own amendment notes on the source.
+| Question | Command |
+| --- | --- |
+| Every change to Article 109 of the Constitution | `git log -p --word-diff -- constitution/art-109.md` |
+| Which law wrote each line of Article 109? | `git blame constitution/art-109.md` |
+| Every version of the Constitution, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- constitution ":!constitution/README.md"` |
+| Article 109 as in force on 1 January 2016 | `python tools/on.py 2016-01-01 constitution art-109` |
 
-**What it does not show**
+**Outside git**, we also host this record publicly, for free:
 
-- The Constitution and statutes in the tables are included. Regulations and statutes with unverified embedded documents or incomplete source consolidations are excluded from the additions.
-- The date of each version is the implementation date the source gives for that consolidation. The source does not give the enactment dates of the amending laws, so none is recorded.
-- Provisions the source marks as removed are left out of the version that removes them. The three Schedules are headings only on the source and are not included. Amendment notes are not part of the text.
-- Items the source prints without an article number are kept as extras of the article before them (for example `art-309-x01`).
+- **[Ask Claude about Maldivian law](https://global-law.lexifina.com/v1/try_claude?country=maldives)**: opens Claude with a first question ready.
+- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=maldives)**: the same question in ChatGPT.
+- **[Call the API in your browser](https://global-law.lexifina.com/v1/search_law?query=%DE%87%DE%A6%DE%80%DE%A6%DE%83%DE%A9+%DE%97%DE%AA%DE%87%DE%B0%DE%93%DE%A9&jurisdictions=maldives)**: a search of Maldivian law for "އަހަރީ ޗުއްޓީ" (annual leave), returned as JSON. See the [documentation here](https://lexifina.com/api/global-law).
 
-**Source**
+Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Dhivehi or in English.
 
-Maldives Laws, Attorney General's Office: <https://mvlaw.gov.mv/en/legislations/6> (Constitution, retrieved on 29 October 2026), the pages of the previously listed statutes (retrieved on 30 October 2026), and <https://mvlaw.gov.mv/en/legislations/93> (Family Act, retrieved on 3 November 2026).
+**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
 
-Nothing here is legal advice; for anything that matters, read the original. How the files were made is in [REPRODUCE.md](REPRODUCE.md).
+```sh
+git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
+python3 tools/countries.py add maldives/national/acts
+python3 tools/law.py show 2026-01-01 maldives/national/acts/constitution/art-109.md
+```
+
+Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
+
+## Dates
+
+Each commit is dated at noon, Indian/Maldives, on the day the version took effect, and carries it in its `In-force:` trailer:
+
+- for every version, the implementation date mvlaw.gov.mv gives for that consolidation; the Constitution's first version is the day it was ratified, 7 August 2008;
+- for the 170 statutes kept one file each, the history starts at the oldest consolidation the site publishes as text, so the first date can be years after the law was passed (the Employment Act starts on 2026-03-08);
+- the site gives no enactment dates for the amending laws, so none is recorded.
+
+The first text of each article-by-article act is credited to its own law, and each later change to the law the site's amendment notes name for the changed article (23 commits in all). The oldest available version of each of the other 170 statutes, and 20 changes no note explains, are credited to the publisher, the Attorney General's Office of the Maldives.
+
+## How it is checked
+
+- `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before, compares it file by file with the corpus it was built from, and checks that every commit's trailers parse; `REPRODUCE.md` records no run of it for this build yet.
+- A second build from the same corpus into an empty folder gave identical hashes for all 213 history commits and 227 tags; the corpus hash is in [`data/corpus.sha256`](data/corpus.sha256) and the details in [`REPRODUCE.md`](REPRODUCE.md).
+- History is append-only: new versions are added after the published head, no commit is rewritten, and `main` has no merge commits and no commit dated in the future.
+
+## What it does not show
+
+- **Earlier versions of most statutes.** Of the 170 statutes kept one file each, 167 have only the one consolidation the site publishes as text; their earlier versions, and for many the law as first passed, are not here.
+- **Regulations, case law, treaties and bills.** Only the Constitution and statutes are here, and statutes with unverified embedded documents or media, or incomplete consolidations on the site, are left out in full.
+- **Schedules and headings without text.** The Constitution's three Schedules and the Part headings of the four article-by-article statutes carry no text on the site and are not included.
+- **Amendment notes and removed provisions.** The site's amendment notes are not part of the text, and provisions it marks as removed are left out from the version that removes them.
+
+## Sources
+
+| Source | Kind | Past versions | Notes |
+| --- | --- | --- | --- |
+| [Maldives Laws](https://mvlaw.gov.mv) (Attorney General's Office) | Official legislation website | the consolidations it publishes as text, each with its implementation date | Dhivehi text; its amendment notes name the amending laws |
 
 ## Licence
 
-See [LICENSE](LICENSE).
+See [`LICENSE`](LICENSE). The laws of the Maldives are published on mvlaw.gov.mv for public use, and this repository makes no claim over them; Lexifina converted the site's pages to Markdown, removing the HTML and normalising whitespace, and the wording is otherwise the site's.
 
-## Additional national statutes
+No AI model wrote, translated or corrected legal text, and no model runs when the history is built; the scripts were written by AI models (Claude and GPT-6, see [`REPRODUCE.md`](REPRODUCE.md)).
 
-These statutes retain the complete available structured Dhivehi text in one file per act, including the source tables. Version dates are the Attorney General's Office consolidation implementation dates. Selected statutes include earlier official consolidations; changes without provision-specific attribution are labelled publisher/unexplained. Acts with unverified embedded official documents are excluded in full.
+## More
 
-| Folder | Act | Versions | In force |
-| --- | --- | ---: | --- |
-| `law-3/` | ޖަމްޢިއްޔާތަކުގެ ޤާނޫނު | 1 | 2022-11-09 to 2022-11-09 |
-| `law-4/` | އިލެކްޓްރޯނިކް މުޢާމަލާތްތަކާބެހޭ ޤާނޫނު | 1 | 2022-04-27 to 2022-04-27 |
-| `law-7/` | ދިވެހިރާއްޖޭގެ ޢިއްޒަތުގެ ޤާނޫނު | 1 | 1997-06-19 to 1997-06-19 |
-| `law-8/` | ދިވެހިރާއްޖޭގެ ބިމާބެހޭ ޤާނޫނު | 8 | 2003-05-23 to 2021-12-13 |
-| `law-11/` | މީހުންއުޅޭ ރަށްރަށުގެ ރުއްގަހާބެހޭ ޤާނޫނު | 1 | 1998-07-22 to 1998-07-22 |
-| `law-12/` | ސަރުކާރަށް ނުވަތަ ސަރުކާރާބެހޭ ފަރާތަކަށް ދަރަނީގެ ގޮތުންނާއި އެހެނިހެން ގޮތްގޮތުން ދައްކަންޖެހޭ ފައިސާ އަތުލުމާ ބެހޭ ޤާނޫނު | 1 | 1978-04-24 to 1978-04-24 |
-| `law-16/` | ކާނިވަލް، ފަންފެއަރ ފަދަ ތަންތަން ހެދުމުގެ ޤާނޫނު | 1 | 1978-05-30 to 1978-05-30 |
-| `law-17/` | މާލޭގެ ގޯތިގޯއްޗާއި ބިންބިމުގެ އިން ވަކިކުރުމާއި އިމުގައި ނުވަތަ އިމާ ކައިރީގައި ޢިމާރާތްކޮށް ތަންތަން ހެދުމާއި މަގަށް ދޮރު ކެނޑުމާ ބެހޭ ޤާނޫނު | 1 | 2000-11-26 to 2000-11-26 |
-| `law-18/` | ރާއްޖޭގެ ބަނދަރުތަކުގައި ހުންނަ ފުރާދުއްވާ އެއްޗެހީގައި ބޭރަށް ފެންނާނެހެން އަލި ބެހެއްޓުމުގެ ޤާނޫނު | 1 | 1982-01-04 to 1982-01-04 |
-| `law-19/` | ދިވެހިރާއްޖޭގައި ބަނދަރުކުލި ނެގުމާބެހޭ  ޤާނޫނު | 1 | 2016-11-29 to 2016-11-29 |
-| `law-20/` | ކަނޑުގައި ދުއްވާ އުޅަނދުތައް ދުއްވުމާބެހޭ ޤާނޫނު | 1 | 2021-12-13 to 2021-12-13 |
-| `law-22/` | ދިވެހިބޭސް ކުރުމާއި ފަންޑިތަ ހެދުމާއި ޚިތާނު ކުރުމާއި އަދި ފޫޅުމާކަން ކުރުމާ ބެހޭ ޤާނޫނު | 1 | 1978-06-05 to 1978-06-05 |
-| `law-23/` | ބޭހުގެ ބާވަތްތައް ދިވެހިރާއްޖެއަށް އެތެރެ ކުރުމާއި ވިއްކުމާބެހޭ ޤާނޫނު | 1 | 1995-11-01 to 1995-11-01 |
-| `law-24/` | ޕޯޓްހެލްތާބެހޭ ޤާނޫނު | 1 | 1989-04-17 to 1989-04-17 |
-| `law-26/` | ދިވެހިރާއްޖޭގެ ޕާސްޕޯޓާބެހޭ ޤާނޫނު | 1 | 1980-10-09 to 1980-10-09 |
-| `law-27/` | މާލޭގެ ދޯނި އެހިލާ ތަންތަނަށް އެހިލާ އުޅަނދުތަކާބެހޭ ޤާނޫނު | 1 | 1994-06-20 to 1994-06-20 |
-| `law-28/` | ޖަމާޢަތްތެރިކަމާބެހޭ ޤާނޫނު | 1 | 1978-05-30 to 1978-05-30 |
-| `law-29/` | ސަރުކާރުގައި ރަޖިސްޓަރީ ކޮށްފައި ހުންނަ މީހުންގެ އަމިއްލަ ތަކެތި ދީ ނުވަތަ ވިއްކުމާބެހޭ ޤާނޫނު | 1 | 1982-04-15 to 1982-04-15 |
-| `law-30/` | ސަރުކާރުގެ އެންގުމަކަށް ރާއްޖޭގެ އެއްރަށުން އަނެއް ރަށަށް ގެންދަންޖެހޭ މީހުން ގެނެސް ގެންދިއުމުގެ ޤާނޫނު | 1 | 1981-08-18 to 1981-08-18 |
-| `law-31/` | ރާއްޖޭން ބޭރަށްދާ ދިވެހިންނާބެހޭ ޤާނޫނު | 1 | 1998-04-05 to 1998-04-05 |
-| `law-32/` | ސަރުކާރުގެ ހުރިހާ މުވައްޒަފުންގެ މުސާރަ ކަނޑައެޅުމުގެ ޤާނޫނު | 1 | 1990-11-05 to 1990-11-05 |
-| `law-33/` | ދިވެހިރާޖޭގެ ޑިއުޓީ މަޢާފް ދާއިރާތަކާބެހޭ ޤާނޫނު | 1 | 1981-11-09 to 1981-11-09 |
-| `law-35/` | ރައްޔިތުންގެ މަޖިލީހަށް ދައުލަތުގެ ފަރާތުން ބިލް ހުށަހެޅުމާބެހޭ ޤާނޫނު | 1 | 1978-03-11 to 1978-03-11 |
-| `law-37/` | ހަވާލުވާންޖެހޭ މުދާ ނުވަތަ ފައިސާއަކާ ހަވާލު ނުވުމުން ޢަމަލުކުރެވޭނެ ގޮތުގެ ޤާނޫނު | 1 | 1982-04-10 to 1982-04-10 |
-| `law-38/` | ބައެއް ފަރާތްތަކުގެ ޑިއުޓީއާއި މަޢްމޫލު މަޢާފު ކުރުމުގެ ހައްޤު ދައުލަތަށް ލިބުމުގެ ޤާނޫނު | 1 | 2022-12-16 to 2022-12-16 |
-| `law-39/` | ސަރުކާރުގެ މަދަރުސާތަކުގައި ކިޔަވާ ކުދިންނާއި، ސަރުކާރުން އެހީވެދޭ އަމިއްލަ މަދަރުސާތަކުގައި ކިޔަވާ ކުދިންނާއި، ސަރުކާރުގެފަރާތުން ތަމްރީނުދެވޭ މީހުން ސަރުކާރަށް ޚިދްމަތް ކުރުމާބެހޭ ޤާނޫނު | 1 | 2014-12-01 to 2014-12-01 |
-| `law-40/` | ޖިންސީ ކުށުގެ ޤާނޫނު | 1 | 2021-12-06 to 2021-12-06 |
-| `law-41/` | އޭޝިއަން އިންފްރާސްޓްރަކްޗަރ އިންވެސްޓްމަންޓް ބޭންކްގެ މެންބަރަކަށް ދިވެހިރާއްޖެ ވުމާގުޅޭ ޤާނޫނު | 1 | 2015-11-18 to 2015-11-18 |
-| `law-42/` | ޓެރަރިޒަމް މަނާކުރުމުގެ ޤާނޫނު | 1 | 2021-12-15 to 2021-12-15 |
-| `law-46/` | ކޮމިއުނިކޭޝަންސް އޮތޯރިޓީ އޮފް މޯލްޑިވްސްގެ ޤާނޫނު | 1 | 2016-03-08 to 2016-03-08 |
-| `law-47/` | ދިވެހިރާއްޖޭގެ ކުޅިވަރު ޤާނޫނު | 1 | 2025-05-19 to 2025-05-19 |
-| `law-48/` | ޞިއްޙީ ޚިދުމަތް ދިނުމުގެ ޤާނޫނު | 1 | 2025-03-03 to 2025-03-03 |
-| `law-49/` | ދިވެހިރާއްޖޭގެ ޓެލެކޮމިއުނިކޭޝަންގެ ޤާނޫނު | 1 | 2016-04-10 to 2016-04-10 |
-| `law-50/` | ކާރިސާއާބެހޭ ކަންކަން ބެލެހެއްޓުމުގެ ޤާނޫނު | 1 | 2016-03-06 to 2016-03-06 |
-| `law-51/` | ނޭޝަނަލް އިންޓެގްރިޓީ ކޮމިޝަންގެ ޤާނޫނު | 1 | 2016-10-06 to 2016-10-06 |
-| `law-52/` | ޞިއްޙީ ޚިދުމަތުގެ ފަންނީ މަސައްކަތްތެރިންގެ ޤާނޫނު | 1 | 2015-08-13 to 2015-08-13 |
-| `law-53/` | ދިވެހިރާއްޖޭގެ އިސްލާމީ ޔުނިވަރސިޓީގެ ޤާނޫނު | 1 | 2019-08-05 to 2019-08-05 |
-| `law-55/` | އެކްސްޓްރަޑިޝަންގެ ޤާނޫނު | 1 | 2015-04-05 to 2015-04-05 |
-| `law-56/` | ކުށްވެރިން ބަދަލުކުރުމުގެ ޤާނޫނު | 1 | 2015-03-11 to 2015-03-11 |
-| `law-57/` | ޖިނާއީ މައްސަލަތަކުގައި ޤާނޫނީ އެހީތެރިކަން ބަދަލުކުރުމުގެ ޤާނޫނު | 1 | 2024-12-17 to 2024-12-17 |
-| `law-58/` | ވެރިކަން ބަދަލުވުމުގެ މަރުޙަލާއާބެހޭ ޤާނޫނު | 1 | 2010-04-20 to 2010-04-20 |
-| `law-62/` | ބައެއް ޤާނޫނުތައް އިޞްލާޙުކުރުމުގެ ޤާނޫނު 2014 | 1 | 2014-09-07 to 2014-09-07 |
-| `law-63/` | ޢާންމު ޤާނޫނުތަކެއް | 1 | 1994-06-20 to 1994-06-20 |
-| `law-65/` | ދިވެހިރާއްޖޭގެ މަދަނީ ވައިގެ ދަތުރުފަތުރުގެ ޤާނޫނު | 1 | 2001-01-11 to 2001-01-11 |
-| `law-68/` | މޯލްޑިވްސް މަނިޓަރީ އޮތޯރިޓީގެ ޤާނޫނު 1981 | 1 | 2020-12-24 to 2020-12-24 |
-| `law-69/` | މިލްކުވެރިކަން ބަދަލުކުރުމުގެ ޤާނޫނު | 1 | 1979-04-04 to 1979-04-04 |
-| `law-70/` | ދިވެހިރާއްޖޭގެ ސިޓިޒެންޝިޕް ޤާނޫނު | 1 | 1998-04-05 to 1998-04-05 |
-| `law-76/` | ޖިންސީ ފުރައްސާރަކުރުމާއި ގޯނާކުރުން ހުއްޓުވުމުގެ ޤާނޫނު | 1 | 2014-05-13 to 2014-05-13 |
-| `law-77/` | މަނީ ލޯންޑްރިންގ އަދި ޓެރަރިޒަމަށް ފައިނޭންސްކުރުން ހުއްޓުވުމުގެ ޤާނޫނު | 1 | 2014-10-13 to 2014-10-13 |
-| `law-80/` | މުދާ ވިއްކުމާބެހޭ ޤާނޫނު | 1 | 1991-09-01 to 1991-09-01 |
-| `law-81/` | އިންޓަރނޭޝަނަލް ފިނޭންސް ކޯޕަރޭޝަންގެ މެންބަރަކަށް ދިވެހިރާއްޖެ ވުމާބެހޭ ޤާނޫނު | 1 | 1982-09-06 to 1982-09-06 |
-| `law-82/` | ދިވެހިރާއްޖޭގެ ތިމާވެށި ރައްކާތެރިކޮށް ދެމެހެއްޓުމާބެހޭ ޤާނޫނު | 1 | 2021-11-28 to 2021-11-28 |
-| `law-84/` | ދިވެހިރައްޔިތުންގެ ދީނީ އެއްބައިވަންތަކަން ޙިމާޔަތް ކުރުމުގެ ޤާނޫނު | 1 | 2016-11-24 to 2016-11-24 |
-| `law-85/` | ރަހުނާބެހޭ ޤާނޫނު | 1 | 1993-12-16 to 1993-12-16 |
-| `law-86/` | ފައިސާއަށް ބަދަލު ކުރެވޭ ގޮތުގައި ގެންގުޅޭ ލިޔުމާބެހޭ ޤާނޫނު | 1 | 2002-11-21 to 2002-11-21 |
-| `law-88/` | ރާއްޖެއަށް ގެނައުން މަނާތަކެތީގެ ޤާނޫނު | 1 | 1995-07-18 to 1995-07-18 |
-| `law-90/` | ވަޒީރުންނާ ސުވާލުކުރުމުގެ ޤާނޫނު | 1 | 2005-08-25 to 2005-08-25 |
-| `law-91/` | ދިވެހިރާއްޖޭގެ މާލީ ސެކިއުރިޓީޒްއާބެހޭ ޤާނޫނު | 1 | 2024-12-03 to 2024-12-03 |
-| `law-92/` | ދައުލަތުގެ މާލިއްޔަތުގެ ޤާނޫނު | 1 | 2023-03-15 to 2023-03-15 |
-| `law-94/` | ޕޯސްޓުގެ ޚިދްމަތުގެ ޤާނޫނު | 1 | 2022-12-21 to 2022-12-21 |
-| `law-95/` | އިޖްތިމާޢީ ރައްކާތެރިކަމުގެ ޤާނޫނު | 1 | 2014-07-12 to 2014-07-12 |
-| `law-96/` | މަޢުލޫމާތު ހޯދައި ލިބިގަތުމުގެ ޙައްޤުގެ ޤާނޫނު | 1 | 2014-07-12 to 2014-07-12 |
-| `law-97/` | ދިވެހިރާއްޖޭގެ ޖަލުތަކާއި ޕެރޯލްގެ ޤާނޫނު | 1 | 2018-12-20 to 2018-12-20 |
-| `law-98/` | އެންޓި ޓޯޗަރ ޤާނޫނު 2013 | 1 | 2014-03-23 to 2014-03-23 |
-| `law-99/` | މީހުން ޓްރެފިކްކުރުން ހުއްޓުވުމުގެ ޤާނޫނު | 1 | 2021-04-28 to 2021-04-28 |
-| `law-100/` | އާބިޓްރޭޝަނުގެ ޤާނޫނު | 1 | 2013-07-03 to 2013-07-03 |
-| `law-103/` | ރައްޔިތުންގެ މަޖިލީހުގެ އިމްތިޔާޒުތަކާއި ބާރުތަކުގެ ޤާނޫނު | 1 | 2021-06-30 to 2021-06-30 |
-| `law-105/` | ސިފައިންގެ ޤާނޫނު | 1 | 2021-03-11 to 2021-03-11 |
-| `law-106/` | އިލެކްޝަންސް ކޮމިޝަންގެ ޤާނޫނު | 1 | 2024-11-26 to 2024-11-26 |
-| `law-107/` | ޕްރޮސިކިއުޓަރ ޖެނެރަލްގެ ޤާނޫނު | 1 | 2020-09-16 to 2020-09-16 |
-| `law-108/` | ރިޔާސީ އިންތިޚާބުގެ ޤާނޫނު | 1 | 2023-06-22 to 2023-06-22 |
-| `law-109/` | ވަޒީފާއާބެހޭ ޤާނޫނު | 1 | 2026-03-08 to 2026-03-08 |
-| `law-113/` | ދިވެހިރާއްޖޭގެ ޕެންޝަނާބެހޭ ޤާނޫނު | 1 | 2026-05-21 to 2026-05-21 |
-| `law-114/` | ޓެކްސް ނެގުމާބެހޭ އިދާރީ ޤާނޫނު | 1 | 2026-08-31 to 2026-08-31 |
-| `law-116/` | ދުންފަތް ކޮންޓްރޯލުކުރުމާބެހޭ ޤާނޫނު | 1 | 2025-11-01 to 2025-11-01 |
-| `law-119/` | ދިވެހިރާއްޖޭގެ ކޯޓުތަކުގެ ޤާނޫނު | 1 | 2022-07-17 to 2022-07-17 |
-| `law-120/` | ކޮޕީރައިޓާއި އެއާގުޅޭ އެހެނިހެން ޙައްޤުތަކުގެ ޤާނޫނު | 1 | 2025-03-10 to 2025-03-10 |
-| `law-121/` | ދިވެހިރާއްޖޭގެ ޤައުމީ ޔުނިވަރސިޓީގެ ޤާނޫނު | 1 | 2019-08-05 to 2019-08-05 |
-| `law-122/` | ދައުލަތުގެ ވިޔަފާރި ތަންތަން ޕްރައިވަޓައިޒްކުރުމާއި ކޯޕަރަޓައިޒްކުރުމާއި އަދި  މޮނިޓަރކޮށް އިވެލުއޭޓްކުރުމުގެ ޤާނޫނު | 1 | 2013-01-17 to 2013-01-17 |
-| `law-123/` | ޞުލްޙަވެރިކަމާއެކު އެއްވެއުޅުމުގެ މިނިވަންކަމުގެ ޤާނޫނު | 2 | 2013-01-10 to 2016-08-23 |
-| `law-124/` | ދިވެހިރާއްޖޭގެ ކަސްޓަމްސްގެ ޤާނޫނު | 1 | 2011-05-11 to 2011-05-11 |
-| `law-127/` | ދިވެހިރާއްޖޭގެ ޤައުމީ އަރުޝީފުގެ ޤާނޫނު | 1 | 2011-12-31 to 2011-12-31 |
-| `law-128/` | ޖިނާއީ އިޖުރާއަތުގެ ޤާނޫނު | 6 | 2016-11-24 to 2024-12-17 |
-| `law-129/` | ދައުލަތުގެ މުސާރައިގެ ސިޔާސަތުގެ ޤާނޫނު | 1 | 2016-10-28 to 2016-10-28 |
-| `law-130/` | ޖެންޑަރ އިކުއަލިޓީގެ ޤާނޫނު | 1 | 2017-02-23 to 2017-02-23 |
-| `law-131/` | ދިވެހިރާއްޖޭގެ އެއަރޕޯޓަކުން ދިވެހިރާއްޖޭން ބޭރަށް ފުރާ ފަސިންޖަރުންގެ  އަތުން ޓެކްސްއާއި ފީ ނެގުމާބެހޭ ޤާނޫނު | 1 | 2024-11-05 to 2024-11-05 |
-| `law-132/` | ޢިމާރާތްކުރުމުގެ ޤާނޫނު | 1 | 2017-10-23 to 2017-10-23 |
-| `law-135/` | ރިޔާސީ ކޮމިޝަންތަކުގެ ޤާނޫނު | 1 | 2019-06-24 to 2019-06-24 |
-| `law-136/` | ދިވެހިރާއްޖޭގެ ޤާނޫނީ ފަންނުގެ ޤާނޫނު | 1 | 2024-09-03 to 2024-09-03 |
-| `law-137/` | ދިވެހިރާއްޖޭގެ ސަގާފީ ތަރިކައިގެ ޤާނޫނު | 1 | 2019-09-12 to 2019-09-12 |
-| `law-139/` | ވިސްލްބްލޯކުރާ ފަރާތްތައް ރައްކާތެރިކުރުމުގެ ޤާނޫނު | 1 | 2019-10-17 to 2019-10-17 |
-| `law-140/` | ކުޑަކުދިންގެ ޢަދުލުގެ ޤާނޫނު | 1 | 2020-12-24 to 2020-12-24 |
-| `law-141/` | ކުޑަކުދިންގެ ޙައްޤުތައް ރައްކާތެރިކުރުމުގެ ޤާނޫނު | 1 | 2020-02-20 to 2020-02-20 |
-| `law-142/` | ދަނޑުވެރިކަމުގައި ބޭނުންކުރާ ޕެސްޓިސައިޑް ކޮންޓްރޯލްކުރުމާބެހޭ ޤާނޫނު | 1 | 2020-06-08 to 2020-06-08 |
-| `law-144/` | ލޯކަލް ކައުންސިލްތަކުގެ އިންތިޚާބުގެ ޚާއްޞަ ޤާނޫނު 2020 | 1 | 2021-01-21 to 2021-01-21 |
-| `law-145/` | ދިވެހިރާއްޖޭގެ އިދާރީ ދާއިރާތައް ލާމަރުކަޒީ އުޞޫލުން ހިންގުން ކަށަވަރުކުރުމުގެ ޚާއްޞަ ޤާނޫނު 2020 | 1 | 2020-09-22 to 2020-09-22 |
-| `law-146/` | ވިޔަފާރީގެ ދާއިރާގައި ވާދަވެރިކަން އުފައްދައި ދެމެހެއްޓުމުގެ ޤާނޫނު | 1 | 2021-02-28 to 2021-02-28 |
-| `law-147/` | މުދާ ގަންނަ ފަރާތްތަކާއި ޚިދުމަތް ލިބިގަންނަ ފަރާތްތައް ޙިމާޔަތްކުރުމުގެ ޤާނޫނު | 1 | 2021-02-28 to 2021-02-28 |
-| `law-148/` | ދިވެހިރާއްޖޭގެ ޗާޓަރޑް އެކައުންޓެންޓުންގެ ޤާނޫނު | 1 | 2020-09-08 to 2020-09-08 |
-| `law-149/` | ޢާންމު ޞިއްޙަތުގެ ކުއްލި ނުރައްކަލުގެ ޤާނޫނު 2020 | 1 | 2020-09-22 to 2020-09-22 |
-| `law-150/` | ތަޢުލީމުގެ ޤާނޫނު | 1 | 2021-08-10 to 2021-08-10 |
-| `law-151/` | ޔުޓިލިޓީ ރެގިއުލޭޓަރީ އޮތޯރިޓީގެ ޤާނޫނު | 1 | 2026-08-23 to 2026-08-23 |
-| `law-152/` | އިންތިޤާލީ އިންސާފުގެ ޤާނޫނު | 1 | 2020-12-17 to 2020-12-17 |
-| `law-153/` | ދިވެހި ފުލުހުންގެ ޚިދުމަތުގެ ޤާނޫނު | 1 | 2023-03-22 to 2023-03-22 |
-| `law-154/` | ދިވެހިރާއްޖޭގެ މަތީ ތަޢުލީމާއި ތަމްރީނުގެ ޤާނޫނު | 1 | 2025-11-09 to 2025-11-09 |
-| `law-155/` | ޤައުމީ ޕޭމަންޓް ސިސްޓަމްގެ ޤާނޫނު | 1 | 2026-08-23 to 2026-08-23 |
-| `law-156/` | ކްލައިމެޓް އިމަރޖަންސީ ޤާނޫނު | 1 | 2021-05-18 to 2021-05-18 |
-| `law-158/` | ދިވެހިރާއްޖޭގެ ތަފާސްހިސާބުގެ ޤާނޫނު | 1 | 2021-07-20 to 2021-07-20 |
-| `law-159/` | ދިވެހިރާއްޖޭގެ ހަކަތައިގެ ޤާނޫނު | 1 | 2021-10-11 to 2021-10-11 |
-| `law-160/` | ދިވެހިރާއްޖޭގެ ފޮރިން ސަރވިސްގެ ޤާނޫނު | 1 | 2022-05-14 to 2022-05-14 |
-| `law-161/` | ދިރިއުޅުމަށްޓަކައި ގޯތިގެދޮރު ކުއްޔަށްދިނުމާބެހޭ ޤާނޫނު | 1 | 2021-11-18 to 2021-11-18 |
-| `law-163/` | މަދަނީ އިޖުރާއަތުގެ ޤާނޫނު | 1 | 2022-06-16 to 2022-06-16 |
-| `law-164/` | އެއްމެދު ޢިމާރާތުގެ ޤާނޫނު | 1 | 2022-03-20 to 2022-03-20 |
-| `law-165/` | ފަންނީ އުފެއްދުންތައް ގިންތިކުރުމުގެ ޤާނޫނު | 1 | 2022-07-18 to 2022-07-18 |
-| `law-167/` | ހެއްކާބެހޭ ޤާނޫނު | 1 | 2023-01-18 to 2023-01-18 |
-| `law-168/` | ފެނާއި ނަރުދަމާގެ ޤާނޫނު | 1 | 2025-08-18 to 2025-08-18 |
-| `law-171/` | މޯލްޑިވްސް ސިވިލް އޭވިއޭޝަން އޮތޯރިޓީގެ ޤާނޫނު | 1 | 2012-01-11 to 2012-01-11 |
-| `law-172/` | ގެވެށި އަނިޔާ ހުއްޓުވުމުގެ ޤާނޫނު | 1 | 2012-04-23 to 2012-04-23 |
-| `law-173/` | ތެލެސީމިއާ ކޮންޓްރޯލްކުރުމުގެ ޤާނޫނު | 1 | 2012-05-10 to 2012-05-10 |
-| `law-174/` | ޢާންމު ޞިއްޙަތު ރައްކާތެރިކުރުމުގެ ޤާނޫނު | 1 | 2021-05-11 to 2021-05-11 |
-| `law-175/` | ދިވެހިރާއްޖޭގެ ކަނޑުގެ ސަރަޙައްދުތަކާބެހޭ ޤާނޫނު | 1 | 2014-07-24 to 2014-07-24 |
-| `law-176/` | ޤައުމީ ކުތުބުޚާނާއަށް ތަކެތި ޖަމާކުރުމުގެ ޤާނޫނު | 1 | 2006-01-19 to 2006-01-19 |
-| `law-177/` | ހިޔުމަން ރައިޓްސް ކޮމިޝަނުގެ ޤާނޫނު | 1 | 2020-09-22 to 2020-09-22 |
-| `law-178/` | ދިވެހިރާއްޖޭގެ އިމިގްރޭޝަންގެ ޤާނޫނު | 1 | 2025-04-15 to 2025-04-15 |
-| `law-179/` | ކޯޕަރޭޓިވް ސޮސައިޓީގެ ޤާނޫނު | 1 | 2007-10-01 to 2007-10-01 |
-| `law-180/` | އޮޑިޓް ޤާނޫނު | 1 | 2020-09-22 to 2020-09-22 |
-| `law-181/` | ދިވެހި ސިވިލް ސަރވިސްގެ ޤާނޫނު | 1 | 2022-05-10 to 2022-05-10 |
-| `law-182/` | ޖުޑީޝަލް ސަރވިސް ކޮމިޝަނުގެ ޤާނޫނު | 1 | 2022-11-03 to 2022-11-03 |
-| `law-183/` | އިންތިޚާބުތަކާބެހޭ ޢާންމު ޤާނޫނު | 1 | 2024-02-29 to 2024-02-29 |
-| `law-184/` | އެންޓި-ކޮރަޕްޝަން ކޮމިޝަނުގެ ޤާނޫނު | 1 | 2024-11-26 to 2024-11-26 |
-| `law-185/` | މޯލްޑިވްސް މީޑިއާ ކައުންސިލުގެ ޤާނޫނު | 1 | 2008-11-04 to 2008-11-04 |
-| `law-186/` | ރައްޔިތުންގެ މަޖިލީހުގެ އިންތިޚާބީ ދާއިރާތައް ކަނޑައެޅުމާބެހޭ ޤާނޫނު | 1 | 2009-02-10 to 2009-02-10 |
-| `law-188/` | ރައީސުލްޖުމްހޫރިއްޔާކަން ކޮށްފައިވާ މީހަކަށް ދޭންޖެހޭ ރައްކާތެރިކަމާއި ޢިނާޔަތްތަކާބެހޭ ޤާނޫނު | 1 | 2025-12-06 to 2025-12-06 |
-| `law-189/` | ރައީސުލްޖުމްހޫރިއްޔާއާއި ރައީސުލްޖުމްހޫރިއްޔާގެ ނައިބުގެ މުސާރައާއި  އެހެނިހެން ޢިނާޔަތްތަކާބެހޭ ޤާނޫނު | 1 | 2014-04-24 to 2014-04-24 |
-| `law-190/` | ކުޑަކުދިންނަށް ޖިންސީ ގޯނާކުރާ މީހުންނާމެދު ޚާއްޞަ އުސޫލުތަކަކަށް ޢަމަލުކުރުމުގެ ޤާނޫނު | 1 | 2009-11-12 to 2009-11-12 |
-| `law-192/` | މަޢާފުދިނުމާއި އަދަބު ލުއިކޮށްދިނުމުގެ ޤާނޫނު | 1 | 2014-12-02 to 2014-12-02 |
-| `law-193/` | ދިވެހިރާއްޖޭގެ އިދާރީ ދާއިރާތައް ލާމަރުކަޒީ އުޞޫލުން ހިންގުމުގެ ޤާނޫނު | 1 | 2026-09-01 to 2026-09-01 |
-| `law-194/` | ނުކުޅެދުންތެރިކަން ހުންނަ މީހުންގެ ޙައްޤުތައް ރައްކާތެރިކުރުމާއި  މާލީ އެހީތެރިކަން ފޯރުކޮށްދިނުމުގެ ޤާނޫނު | 1 | 2012-10-24 to 2012-10-24 |
-| `law-195/` | ލޯކަލް ކައުންސިލްތަކުގެ އިންތިޚާބުގެ ޤާނޫނު | 1 | 2024-08-18 to 2024-08-18 |
-| `law-196/` | ޢާންމު އިޖްތިމާޢީ މިންގަނޑުތަކާ ޚިލާފު ޢަމަލުތައް ހުއްޓުވުމުގެ ޤާނޫނު | 1 | 2011-02-03 to 2011-02-03 |
-| `law-198/` | ދިވެހިރާއްޖޭގެ ބޭންކިންގއާބެހޭ ޤާނޫނު | 1 | 2015-01-05 to 2015-01-05 |
-| `law-199/` | މާނަކުރުމުގެ ހަމަތައް ބަޔާންކުރުމުގެ ޤާނޫނު | 1 | 2011-01-17 to 2011-01-17 |
-| `law-200/` | ދިވެހިރާއްޖޭގެ ޤައުމީ ބަހަށް އިސްކަންދިނުމުގެ ޤާނޫނު | 1 | 2018-12-20 to 2018-12-20 |
-| `law-201/` | ގަސްގަހާގެހި ޙިމާޔަތްކުރުމުގެ ޤާނޫނު | 1 | 2011-12-12 to 2011-12-12 |
-| `law-202/` | އިދާރީ ދާއިރާތަކުގެ ވެރިކަންކުރާ ރަށް ކަނޑައެޅުމުގެ ޤާނޫނު | 1 | 2011-04-18 to 2011-04-18 |
-| `law-204/` | ދިވެހިރާއްޖޭގެ ފަނޑިޔާރުންގެ ޤާނޫނު | 1 | 2022-03-10 to 2022-03-10 |
-| `law-205/` | ބްރޯޑްކާސްޓްކުރުމުގެ ޤާނޫނު | 1 | 2010-11-20 to 2010-11-20 |
-| `law-211/` | ކުނި މެނޭޖުކުރުމުގެ ޤާނޫނު | 1 | 2026-08-23 to 2026-08-23 |
-| `law-212/` | އުފަންވުމާއި މަރުވުން ރަޖިސްޓަރީކުރުމާއި އުފަންދުވަހުގެ ސެޓްފިކެޓް އަދި ދިވެހިރައްޔިތެއްކަން އަންގައިދޭ ކާޑު ހެއްދުމާބެހޭ ޤާނޫނު | 1 | 2022-12-18 to 2022-12-18 |
-| `law-235/` | ދިވެހިރާއްޖޭގެ ޓޫރިޒަމާބެހޭ ޤާނޫނު | 1 | 2025-12-06 to 2025-12-06 |
-| `law-271/` | މަސައްކަތުގެ މާޙައުލުގެ ސަލާމަތާއި ޞިއްޙީ ރައްކާތެރިކަމުގެ ޤާނޫނު | 1 | 2024-04-02 to 2024-04-02 |
-| `law-273/` | އިންޑަސްޓްރިއަލް ރިލޭޝަންސްއާގުޅޭ ޤާނޫނު | 1 | 2024-04-02 to 2024-04-02 |
-| `law-275/` | އެންޓި-ޑިފެކްޝަން ޤާނޫނު | 1 | 2024-04-16 to 2024-04-16 |
-| `law-276/` | ކާބޯތަކެތީގެ ރައްކާތެރިކަމުގެ ޤާނޫނު | 1 | 2024-08-23 to 2024-08-23 |
-| `law-278/` | ފޮރިން އިންވެސްޓްމަންޓްގެ ޤާނޫނު | 1 | 2024-12-03 to 2024-12-03 |
-| `law-279/` | ބިނާވެށި ޕްލޭންކުރުމާއި ހިންގުމުގެ ޤާނޫނު | 1 | 2024-12-08 to 2024-12-08 |
-| `law-280/` | ދައުލަތުގެ ފިސްކަލް ޒިންމާގެ ޤާނޫނު | 1 | 2025-12-02 to 2025-12-02 |
-| `law-281/` | އަރބަން ޑިވެލޮޕްމަންޓްގެ ޤާނޫނު | 1 | 2025-06-02 to 2025-06-02 |
-| `law-282/` | ދައުލަތުގެ ދަރަންޏާބެހޭ ޤާނޫނު | 1 | 2025-06-03 to 2025-06-03 |
-| `law-283/` | ބޭރު ފައިސާއާބެހޭ ޤާނޫނު | 1 | 2026-09-01 to 2026-09-01 |
-| `law-284/` | ގޭންގުތަކުން ހިންގާ ކުށްތަކާއި އެނޫންވެސް ނުރައްކާތެރި ކުށްތައް ހުއްޓުވުމުގެ ޤާނޫނު | 1 | 2025-08-25 to 2025-08-25 |
-| `law-285/` | ބަންޑާރަނައިބުގެ އޮފީހުގެ ޤާނޫނު | 1 | 2025-08-27 to 2025-08-27 |
-| `law-286/` | މޯލްޑިވްސް އިންޓެލެކްޗުއަލް ޕްރޮޕަރޓީ އޮފީހުގެ ޤާނޫނު | 1 | 2026-01-01 to 2026-01-01 |
-| `law-287/` | އިންޝުއަރެންސްއާބެހޭ ޤާނޫނު | 1 | 2025-08-28 to 2025-08-28 |
-| `law-288/` | ރައްޔިތުންގެ ޚިޔާލު ހޯދުމުގެ ޢާންމު ވޯޓު ނެގުމުގެ ޤާނޫނު | 1 | 2025-09-16 to 2025-09-16 |
-| `law-289/` | މޯލްޑިވްސް މީޑިއާ އެންޑް ބްރޯޑްކާސްޓިންގ ރެގިއުލޭޝަންގެ ޤާނޫނު | 1 | 2025-09-18 to 2025-09-18 |
-| `law-291/` | ޒަކާތުގެ ޤާނޫނު | 1 | 2026-01-01 to 2026-01-01 |
-| `law-292/` | ރީ-އެމްޕްލޯއިމަންޓްގެ ޤާނޫނު | 1 | 2026-02-08 to 2026-02-08 |
-| `law-294/` | އާމްދަނީން ޓެކްސް ނެގުމުގެ ޤާނޫނު | 1 | 2026-08-31 to 2026-08-31 |
-| `law-296/` | ފަޅުރަށާއި ފަޅު ކުއްޔަށްދިނުމާބެހޭ ޤާނޫނު | 1 | 2026-10-01 to 2026-10-01 |
+From [lexifina/global-law](https://github.com/lexifina/global-law):
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
+- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
