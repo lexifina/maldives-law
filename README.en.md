@@ -60,6 +60,7 @@ The first text of each article-by-article act is credited to its own law, and ea
 - `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before, compares it file by file with the corpus it was built from, and checks that every commit's trailers parse; `REPRODUCE.md` records no run of it for this build yet.
 - A second build from the same corpus into an empty folder gave identical hashes for all 213 history commits and 227 tags; the corpus hash is in [`data/corpus.sha256`](data/corpus.sha256) and the details in [`REPRODUCE.md`](REPRODUCE.md).
 - History is append-only: new versions are added after the published head, no commit is rewritten, and `main` has no merge commits and no commit dated in the future.
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in Maldivian law, found by global-law's detectors and checked by hand.
 
 ## What it does not show
 
