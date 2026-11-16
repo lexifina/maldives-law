@@ -1,35 +1,41 @@
-# Maldives: law history in git
+# ދިވެހިރާއްޖެ: git ގައި ޤާނޫނުތަކުގެ ތާރީޚު
 
+**ދިވެހި** · [English](README.en.md)
 
-The law of the Maldives as a git history: one file per article for the Constitution and four main statutes and one file per act for the other statutes, one commit per version (or per amending law, where several laws made one version) on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every line; `git log` lists every change to an article; picking a date gives the text in force that day.
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="data/dv/effort-dark.svg">
+<img alt="މި ރިޕޮޒިޓަރީގައި ހިމެނޭ ދިވެހި ޤާނޫނު: އޭގައި ހިމެނޭ ކަންތައް، ހިނގަން ފެށި އަހަރަށް ބަލައިގެން ބަދަލުތައް، ރަސްމީ މަސްދަރުތަކާ އަޅާކިޔައިގެން ފުރިހަމަކަން، އަދި ހިމެނޭ ކަންކަމުގެ ޞައްޙަކަން" src="data/dv/effort-light.svg" width="880">
+</picture>
 
-Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the Maldives' national law, which global-law reads at `maldives/national/acts/`.
+ދިވެހިރާއްޖޭގެ ޤާނޫނުތައް git ތާރީޚެއްގެ ގޮތުގައި: ޤާނޫނުއަސާސީއާއި މައިގަނޑު ހަތަރު ޤާނޫނުގެ ކޮންމެ މާއްދާއަކަށް އެއް ފައިލް، އަދި އެހެން ޤާނޫނުތަކުގެ ކޮންމެ ޤާނޫނަކަށް އެއް ފައިލް؛ ކޮންމެ ނުސްޚާއަކަށް (ނުވަތަ އެއް ނުސްޚާއެއް ގެނައީ އެތައް ޤާނޫނަކުން ނަމަ، އިޞްލާޙު ގެނައި ކޮންމެ ޤާނޫނަކަށް) އެ ނުސްޚާ ހިނގަން ފެށި ދުވަހު އެއް ކޮމިޓް؛ އަދި ކޮމިޓުގެ ލިޔުންތެރިޔާ (author) އަކީ އެ ބަދަލު ގެނައި ޤާނޫނެވެ. `git blame` އިން ކޮންމެ ސަތުރެއްގެ ފަހަތުގައިވާ ޤާނޫނު ދައްކައެވެ. `git log` އިން މާއްދާއަކަށް ގެނެވުނު ހުރިހާ ބަދަލެއް ލިސްޓުކޮށްދެއެވެ. ތާރީޚެއް ހޮވައިފިނަމަ، އެ ދުވަހު ހިނގަމުންދިޔަ ލިޔުން ލިބެއެވެ.
 
-**What is in it now:** the Constitution and 174 statutes from the Attorney General's Office, with 205 versions in force from 1978 to 2026. The Constitution (9 versions, from 2008), the Penal Code (7), the Contract Act, the Companies Act (2) and the Family Act (3) are kept article by article with their amendments; the other 170 statutes are one file each, 3 of them with earlier versions. [`REPRODUCE.md`](REPRODUCE.md) lists every act with its versions, and [`data/versions.json`](data/versions.json) gives each version's source page.
+މިއީ [lexifina/global-law](https://github.com/lexifina/global-law) ގެ ބައެކެވެ. އެއީ ހުރިހާ ޤައުމެއްގެ ޤާނޫނުތައް ހިމެނޭ އެއް git ތާރީޚެކެވެ. މިއީ ދިވެހިރާއްޖޭގެ ޤައުމީ ޤާނޫނުތަކެވެ. global-law މިތަކެތި ކިޔަނީ `maldives/national/acts/` އިންނެވެ.
 
-The Constitution and those four statutes are in named folders, one file per article (`constitution/art-109.md` is Article 109 of the Constitution, who may be elected President); the other statutes are in `law-<id>/text.md`, by the act's number on mvlaw.gov.mv (`law-109/text.md` is the ވަޒީފާއާބެހޭ ޤާނޫނު, the Employment Act, Law No. 2/2008). Each folder's `README.md` lists its provisions.
+**މިހާރު މިއޮތީ:** އެޓަރނީ ޖެނެރަލްގެ އޮފީހުން ޝާއިޢުކުރާ ޤާނޫނުއަސާސީއާއި 174 ޤާނޫނު، 1978 އިން 2026 އަށް ހިނގި 205 ނުސްޚާއާއެކުގައެވެ. ޤާނޫނުއަސާސީ (2008 އިން ފެށިގެން 9 ނުސްޚާ)، ޖިނާއީ ޤާނޫނު (7)، ޢަޤްދުތަކާބެހޭ ޤާނޫނު، ކުންފުނިތަކާބެހޭ ޤާނޫނު (2) އަދި ޢާއިލާ ޤާނޫނު (3) ބަހައްޓާފައިވަނީ މާއްދާ މާއްދާއިން، އެ ޤާނޫނުތަކަށް ގެނެވުނު އިޞްލާޙުތަކާއެކުގައެވެ. ބާކީ 170 ޤާނޫނުގެ ކޮންމެ ޤާނޫނެއް ހުރީ އެއް ފައިލެއްގައެވެ. އޭގެތެރެއިން 3 ޤާނޫނުގެ ކުރީގެ ނުސްޚާތައްވެސް ހިމެނެއެވެ. [`REPRODUCE.md`](REPRODUCE.md) ގައި ކޮންމެ ޤާނޫނެއް އޭގެ ނުސްޚާތަކާއެކު ލިސްޓުކޮށްފައިވާއިރު، [`data/versions.json`](data/versions.json) ގައި ކޮންމެ ނުސްޚާއެއް ނެގި ޞަފްޙާ ދީފައިވެއެވެ.
 
-The text is in Dhivehi, in Thaana script, as mvlaw.gov.mv publishes it. An English translation is not part of this record.
+ޤާނޫނުއަސާސީއާއި އެ ހަތަރު ޤާނޫނު ހުރީ ނަން ދީފައިވާ ފޯލްޑަރުތަކުގައި، ކޮންމެ މާއްދާއަކަށް އެއް ފައިލްގެ ގޮތުގައެވެ (`constitution/art-109.md` އަކީ ޤާނޫނުއަސާސީގެ 109 ވަނަ މާއްދާ، ރައީސުލްޖުމްހޫރިއްޔާގެ މަޤާމަށް އިންތިޚާބުވެވޭނީ ކާކުކަން). އެހެން ޤާނޫނުތައް ހުރީ `law-<id>/text.md` ގައި، mvlaw.gov.mv ގައި އެ ޤާނޫނަށް ދީފައިވާ ނަންބަރުންނެވެ (`law-109/text.md` އަކީ ވަޒީފާއާބެހޭ ޤާނޫނު، ޤާނޫނު ނަންބަރު 2/2008). ކޮންމެ ފޯލްޑަރެއްގެ `README.md` ގައި އޭގެ މާއްދާތައް ލިސްޓުކޮށްފައިވެއެވެ.
 
-## Questions as git commands
+ލިޔުން ހުރީ ދިވެހިބަހުން، ތާނަ އަކުރުން، mvlaw.gov.mv ގައި ޝާއިޢުކޮށްފައިވާ ގޮތަށެވެ. އިނގިރޭސި ތަރުޖަމާއެއް މި ރިކޯޑުގައި ނުހިމެނެއެވެ.
 
-| Question | Command |
+## git ކޮމާންޑުތަކުގެ ގޮތުގައި ސުވާލުތައް
+
+| ސުވާލު | ކޮމާންޑު |
 | --- | --- |
-| Every change to Article 109 of the Constitution | `git log -p --word-diff -- constitution/art-109.md` |
-| Which law wrote each line of Article 109? | `git blame constitution/art-109.md` |
-| Every version of the Constitution, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- constitution ":!constitution/README.md"` |
-| Article 109 as in force on 1 January 2016 | `python tools/on.py 2016-01-01 constitution art-109` |
+| ޤާނޫނުއަސާސީގެ 109 ވަނަ މާއްދާއަށް ގެނެވުނު ހުރިހާ ބަދަލެއް | `git log -p --word-diff -- constitution/art-109.md` |
+| 109 ވަނަ މާއްދާގެ ކޮންމެ ސަތުރެއް ލިޔުނީ ކޮން ޤާނޫނަކުން؟ | `git blame constitution/art-109.md` |
+| ޤާނޫނުއަސާސީގެ ހުރިހާ ނުސްޚާއެއް، ކޮންމެ ނުސްޚާއެއް ހިނގަން ފެށި ދުވަހާއެކު | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- constitution ":!constitution/README.md"` |
+| 1 ޖަނަވަރީ 2016 ގައި ހިނގަމުންދިޔަ ގޮތަށް 109 ވަނަ މާއްދާ | `python tools/on.py 2016-01-01 constitution art-109` |
 
-**Outside git**, we also host this record publicly, for free:
+**git އިން ބޭރުގައިވެސް** މި ރިކޯޑު އަހަރެމެން ހިލޭ، ހުޅުވާލާފައިވާ ގޮތަށް ހޮސްޓްކުރަމެވެ:
 
-- **[Ask Claude about Maldivian law](https://global-law.lexifina.com/v1/try_claude?country=maldives)**: opens Claude with a first question ready.
-- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=maldives)**: the same question in ChatGPT.
-- **[Search Maldivian law on our site](https://lexifina.com/law?country=maldives&q=%DE%87%DE%A6%DE%80%DE%A6%DE%83%DE%A9+%DE%97%DE%AA%DE%87%DE%B0%DE%93%DE%A9)**: a search for "އަހަރީ ޗުއްޓީ" (annual leave), with each provision's text and its versions, no account needed.
-- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=%DE%87%DE%A6%DE%80%DE%A6%DE%83%DE%A9+%DE%97%DE%AA%DE%87%DE%B0%DE%93%DE%A9&jurisdiction=maldives)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
+- **[ދިވެހި ޤާނޫނާބެހޭގޮތުން Claude އާ ސުވާލުކުރައްވާ](https://global-law.lexifina.com/v1/try_claude?country=maldives)**: ފުރަތަމަ ސުވާލެއް ތައްޔާރުކޮށްގެން Claude ހުޅުވައިދެއެވެ.
+- **[ChatGPT އާ ސުވާލުކުރައްވާ](https://global-law.lexifina.com/v1/try_chatgpt?country=maldives)**: އެ ސުވާލު ChatGPT ގައި.
+- **[އަހަރެމެންގެ ސައިޓުގައި ދިވެހި ޤާނޫނުތަކުން ހޯއްދަވާ](https://lexifina.com/law?country=maldives&q=%DE%87%DE%A6%DE%80%DE%A6%DE%83%DE%A9+%DE%97%DE%AA%DE%87%DE%B0%DE%93%DE%A9)**: "އަހަރީ ޗުއްޓީ" ހޯދުމުގެ ނަތީޖާ، ކޮންމެ މާއްދާއެއްގެ ލިޔުމާއި އޭގެ ނުސްޚާތަކާއެކު، އެކައުންޓެއް ނުހަދައި.
+- **[ޑިވެލޮޕަރުންނަށް REST API](https://global-law.lexifina.com/v1/search_law?query=%DE%87%DE%A6%DE%80%DE%A6%DE%83%DE%A9+%DE%97%DE%AA%DE%87%DE%B0%DE%93%DE%A9&jurisdiction=maldives)**: އެ ހޯދުން JSON ގެ ގޮތުގައި، ކީއެއް ނެތި. [ޑޮކިއުމެންޓޭޝަން މިތަނުގައި](https://lexifina.com/api/global-law).
 
-Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Dhivehi or in English.
+ދެ އެސިސްޓެންޓުވެސް މި ރިކޯޑު ކިޔަނީ ހިލޭ Global law ކަނެކްޓަރ (MCP، `https://global-law.lexifina.com/mcp`) މެދުވެރިކޮށެވެ. ފުރަތަމަ ފަހަރު، އެ ކަނެކްޓަރ އިތުރުކުރާ ލިންކް ޗެޓުން ދެއްވާނެއެވެ. ސުވާލުކުރެވޭނީ ދިވެހިބަހުން ނުވަތަ އިނގިރޭސިބަހުންނެވެ.
 
-**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+**ފަސޭހައިން އަމިއްލައަށް ހޮސްޓްކުރެވޭނެއެވެ.** ބޭނުންވަނީ git އާއި Python އެކަންޏެވެ. ޓޫލްތައް ހިނގަނީ ތިބާގެ ކޮމްޕިއުޓަރުގައެވެ:
 
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
@@ -37,50 +43,52 @@ python3 tools/countries.py add maldives/national/acts
 python3 tools/law.py show 2026-01-01 maldives/national/acts/constitution/art-109.md
 ```
 
-Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
+Claude Code، Cursor، VS Code ނުވަތަ Codex ގައި ހުޅުވައިފިނަމަ، މި ކްލޯނުން އެ ޓޫލްތަކާއެކު ލޯކަލް MCP ސާވަރެއްވެސް ފަށައިދެއެވެ ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
-## Dates
+## ތާރީޚުތައް
 
-Each commit is dated at noon, Indian/Maldives, on the day the version took effect, and carries it in its `In-force:` trailer:
+ކޮންމެ ކޮމިޓެއްގެ ތާރީޚަކީ އެ ނުސްޚާ ހިނގަން ފެށި ދުވަހުގެ މެންދުރު (Indian/Maldives) އެވެ. އެ ދުވަސް އޭގެ `In-force:` ޓްރެއިލަރުގައި ހިމެނެއެވެ:
 
-- for every version, the implementation date mvlaw.gov.mv gives for that consolidation; the Constitution's first version is the day it was ratified, 7 August 2008;
-- for the 170 statutes kept one file each, the history starts at the oldest consolidation the site publishes as text, so the first date can be years after the law was passed (the Employment Act starts on 2026-03-08);
-- the site gives no enactment dates for the amending laws, so none is recorded.
+- ކޮންމެ ނުސްޚާއަކަށް، އެ ނުސްޚާއަށް mvlaw.gov.mv ދޭ ތަންފީޒުކުރާ ތާރީޚު. ޤާނޫނުއަސާސީގެ ފުރަތަމަ ނުސްޚާގެ ތާރީޚަކީ އެ ތަޞްދީޤުކުރި ދުވަސް، 7 އޯގަސްޓު 2008؛
+- ކޮންމެ ޤާނޫނެއް އެއް ފައިލެއްގައި ބަހައްޓާފައިވާ 170 ޤާނޫނަށް، ތާރީޚު ފެށެނީ ސައިޓުގައި ލިޔުމެއްގެ ގޮތުގައި ޝާއިޢުކޮށްފައިވާ އެންމެ ކުރީގެ ނުސްޚާއިންނެވެ. އެހެންކަމުން ފުރަތަމަ ތާރީޚަކީ ޤާނޫނު ފާސްކުރިތާ އެތައް އަހަރެއް ފަހުގެ ތާރީޚަކަށް ވެދާނެއެވެ (ވަޒީފާއާބެހޭ ޤާނޫނު ފެށެނީ 2026-03-08 ގައި)؛
+- އިޞްލާޙު ގެނައި ޤާނޫނުތައް ފާސްކުރި ތާރީޚު ސައިޓުގައި ނެތުމުން، އެފަދަ ތާރީޚެއް ރިކޯޑުކޮށްފައެއް ނުވެއެވެ.
 
-The first text of each article-by-article act is credited to its own law, and each later change to the law the site's amendment notes name for the changed article (23 commits in all). The oldest available version of each of the other 170 statutes, and 20 changes no note explains, are credited to the publisher, the Attorney General's Office of the Maldives.
+މާއްދާ މާއްދާއިން ބަހައްޓާފައިވާ ކޮންމެ ޤާނޫނެއްގެ ފުރަތަމަ ލިޔުން ނިސްބަތްކޮށްފައިވަނީ އެ ޤާނޫނަށެވެ. ފަހުން ގެނެވުނު ކޮންމެ ބަދަލެއް ނިސްބަތްކޮށްފައިވަނީ، ބަދަލުވި މާއްދާއަށް ސައިޓުގެ އިޞްލާޙީ ނޯޓުތަކުގައި ނަން ދީފައިވާ ޤާނޫނަށެވެ (ޖުމްލަ 23 ކޮމިޓް). ބާކީ 170 ޤާނޫނުގެ ލިބެން ހުރި އެންމެ ކުރީގެ ނުސްޚާއާއި، އެއްވެސް ނޯޓަކުން ސަބަބު ބަޔާންނުކުރާ 20 ބަދަލު ނިސްބަތްކޮށްފައިވަނީ ޝާއިޢުކުރާ ފަރާތް، ދިވެހިރާއްޖޭގެ އެޓަރނީ ޖެނެރަލްގެ އޮފީހަށެވެ.
 
-## How it is checked
+## ޗެކުކުރާ ގޮތް
 
-- `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before, compares it file by file with the corpus it was built from, and checks that every commit's trailers parse; `REPRODUCE.md` records no run of it for this build yet.
-- A second build from the same corpus into an empty folder gave identical hashes for all 213 history commits and 227 tags; the corpus hash is in [`data/corpus.sha256`](data/corpus.sha256) and the details in [`REPRODUCE.md`](REPRODUCE.md).
-- History is append-only: new versions are added after the published head, no commit is rewritten, and `main` has no merge commits and no commit dated in the future.
+- `tools/check_repo.py` އިން ކޮންމެ ނުސްޚާއެއް، އެ ހިނގަން ފެށި ދުވަހާއި އޭގެ ކުރީ ދުވަހު git އިން އަނބުރާ ކިޔައި، އެ ބިނާކުރި ކޯޕަހާ ފައިލް ފައިލުން އަޅާކިޔައި، ކޮންމެ ކޮމިޓެއްގެ ޓްރެއިލަރުތައް ޕާސްވާކަން ޗެކުކުރެއެވެ. މި ބިލްޑަށް އެ ހިންގިކަމެއް `REPRODUCE.md` ގައި އަދި ރިކޯޑުކޮށްފައެއް ނުވެއެވެ.
+- އެ ކޯޕަހުން ހުސް ފޯލްޑަރަކަށް ދެވަނަ ފަހަރަށް ބިލްޑުކުރިއިރު، ތާރީޚުގެ ހުރިހާ 213 ކޮމިޓާއި 227 ޓެގަށް އެއްފަދަ ހޭޝްތައް ލިބުނެވެ. ކޯޕަހުގެ ހޭޝް [`data/corpus.sha256`](data/corpus.sha256) ގައި، އަދި ތަފްޞީލު [`REPRODUCE.md`](REPRODUCE.md) ގައި ވެއެވެ.
+- ތާރީޚަށް ކުރެވެނީ އިތުރުކުރުން އެކަންޏެވެ: އާ ނުސްޚާތައް އިތުރުކުރެވެނީ ޝާއިޢުކުރެވިފައިވާ އެންމެ ފަހު ކޮމިޓުގެ ފަހަތުންނެވެ. އެއްވެސް ކޮމިޓެއް އަލުން ލިޔެވިފައެއް ނުވެއެވެ. `main` ގައި މާޖް ކޮމިޓެއް ނުވަތަ މުސްތަޤްބަލުގެ ތާރީޚެއް ޖަހާފައިވާ ކޮމިޓެއް ނެތެވެ.
 
-## What it does not show
+## ނުދައްކާ ކަންތައްތައް
 
-- **Earlier versions of most statutes.** Of the 170 statutes kept one file each, 167 have only the one consolidation the site publishes as text; their earlier versions, and for many the law as first passed, are not here.
-- **Regulations, case law, treaties and bills.** Only the Constitution and statutes are here, and statutes with unverified embedded documents or media, or incomplete consolidations on the site, are left out in full.
-- **Schedules and headings without text.** The Constitution's three Schedules and the Part headings of the four article-by-article statutes carry no text on the site and are not included.
-- **Amendment notes and removed provisions.** The site's amendment notes are not part of the text, and provisions it marks as removed are left out from the version that removes them.
+- **ގިނަ ޤާނޫނުތަކުގެ ކުރީގެ ނުސްޚާތައް.** އެއް ފައިލެއްގައި ބަހައްޓާފައިވާ 170 ޤާނޫނުގެ ތެރެއިން 167 ޤާނޫނަށް ހުރީ ސައިޓުގައި ލިޔުމެއްގެ ގޮތުގައި ޝާއިޢުކޮށްފައިވާ އެއް ނުސްޚާ އެކަންޏެވެ. އެ ޤާނޫނުތަކުގެ ކުރީގެ ނުސްޚާތަކާއި، ގިނަ ޤާނޫނުތަކުގެ ފުރަތަމަ ފާސްކުރި ނުސްޚާ މިތާ ނެތެވެ.
+- **ގަވާއިދުތަކާއި، ކޯޓުތަކުގެ ޙުކުމްތަކާއި، މުޢާހަދާތަކާއި، ބިލުތައް.** މިތާ ހިމެނޭނީ ޤާނޫނުއަސާސީއާއި ޤާނޫނުތައް އެކަންޏެވެ. ސައިޓުގައި ސާބިތުނުކުރެވޭ ލިޔެކިޔުމެއް ނުވަތަ މީޑިއާއެއް އެތެރެކޮށްފައިވާ، ނުވަތަ ފުރިހަމަނުވާ ނުސްޚާތަކެއް ހުރި ޤާނޫނުތައް މުޅިން ދޫކޮށްލާފައިވެއެވެ.
+- **ލިޔުމެއް ނެތް ޖަދުވަލުތަކާއި ސުރުޚީތައް.** ޤާނޫނުއަސާސީގެ ތިން ޖަދުވަލާއި، މާއްދާ މާއްދާއިން ބަހައްޓާފައިވާ ހަތަރު ޤާނޫނުގެ ބައިތަކުގެ ސުރުޚީތަކުގައި ސައިޓުގައި އެއްވެސް ލިޔުމެއް ނެތުމުން، އެތަކެތި ހިމަނާފައެއް ނުވެއެވެ.
+- **އިޞްލާޙީ ނޯޓުތަކާއި އުވާލެވުނު މާއްދާތައް.** ސައިޓުގެ އިޞްލާޙީ ނޯޓުތައް ލިޔުމުގެ ބައެއް ނޫނެވެ. އަދި ސައިޓުން އުވާލެވިފައިވާކަމަށް ފާހަގަކުރާ މާއްދާތައް، އެ އުވާލާ ނުސްޚާއިން ފެށިގެން ދޫކޮށްލާފައިވެއެވެ.
 
-## Sources
+## މަސްދަރުތައް
 
-| Source | Kind | Past versions | Notes |
+| މަސްދަރު | ބާވަތް | ކުރީގެ ނުސްޚާތައް | ނޯޓު |
 | --- | --- | --- | --- |
-| [Maldives Laws](https://mvlaw.gov.mv) (Attorney General's Office) | Official legislation website | the consolidations it publishes as text, each with its implementation date | Dhivehi text; its amendment notes name the amending laws |
+| [Maldives Laws](https://mvlaw.gov.mv) (އެޓަރނީ ޖެނެރަލްގެ އޮފީސް) | ޤާނޫނުތައް ޝާއިޢުކުރާ ރަސްމީ ވެބްސައިޓް | ލިޔުމެއްގެ ގޮތުގައި ޝާއިޢުކުރާ ނުސްޚާތައް، ކޮންމެ ނުސްޚާއެއް އޭގެ ތަންފީޒުކުރާ ތާރީޚާއެކު | ދިވެހި ލިޔުން؛ އޭގެ އިޞްލާޙީ ނޯޓުތަކުގައި އިޞްލާޙު ގެނައި ޤާނޫނުތަކުގެ ނަން ދީފައިވެއެވެ |
 
-## Licence
+## ލައިސަންސް
 
-See [`LICENSE`](LICENSE). The laws of the Maldives are published on mvlaw.gov.mv for public use, and this repository makes no claim over them; Lexifina converted the site's pages to Markdown, removing the HTML and normalising whitespace, and the wording is otherwise the site's.
+[`LICENSE`](LICENSE) ބައްލަވާ. ދިވެހިރާއްޖޭގެ ޤާނޫނުތައް mvlaw.gov.mv ގައި ޝާއިޢުކޮށްފައިވަނީ ޢާންމުންގެ ބޭނުމަށެވެ. މި ރިޕޮޒިޓަރީއިން އެ ޤާނޫނުތަކުގެ މައްޗަށް އެއްވެސް ޙައްޤެއް ދަޢުވާއެއް ނުކުރެއެވެ. Lexifina އިން ކޮށްފައިވަނީ ސައިޓުގެ ޞަފްޙާތައް Markdown އަށް ބަދަލުކޮށް، HTML ނަގާލައި، ހުސްޖާގަ (whitespace) އެއްގޮތްކުރުމެވެ. އެނޫން ގޮތަކުން ލަފްޒުތަކަކީ ސައިޓުގައިވާ ލަފްޒުތަކެވެ.
 
-No AI model wrote, translated or corrected legal text, and no model runs when the history is built; the scripts were written by AI models (Claude and GPT-6, see [`REPRODUCE.md`](REPRODUCE.md)).
+އެއްވެސް AI މޮޑެލަކުން ޤާނޫނީ ލިޔުމެއް ލިޔެފައި، ތަރުޖަމާކޮށްފައި ނުވަތަ ރަނގަޅުކޮށްފައެއް ނުވެއެވެ. އަދި ތާރީޚު ބިނާކުރާއިރު އެއްވެސް މޮޑެލެއް ނުހިންގައެވެ. ސްކްރިޕްޓްތައް ލިޔުނީ AI މޮޑެލްތަކުންނެވެ (Claude އާއި GPT-6، [`REPRODUCE.md`](REPRODUCE.md) ބައްލަވާ).
 
-## More
+މި ލިޔުމަކީ އިނގިރޭސި ނުސްޚާގެ ([README.en.md](README.en.md)) ތަރުޖަމާއެކެވެ. ތަފާތެއް ވާނަމަ، އިނގިރޭސި ނުސްޚާގައިވާ ގޮތަށް ޢަމަލުކުރެވޭނެއެވެ.
 
-From [lexifina/global-law](https://github.com/lexifina/global-law):
+## އިތުރު މަޢުލޫމާތު
 
-- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
-- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
-- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
-- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
-- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
-- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
+[lexifina/global-law](https://github.com/lexifina/global-law) ރިޕޮޒިޓަރީން (އިނގިރޭސި ބަހުން ލިޔެފައިވާ ޞަފްޙާތައް):
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): ހުރިހާ ފީޗަރެއް، އަދި ކޮންމެ ކޯޕަހެއް ސަޕޯޓްކުރަން ޖެހޭ ކަންތައް (`git blame`، `law.py`، MCP ޓޫލްތައް)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): ސުވާލާއި ޖަވާބު · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): ބަދަލު ހުށަހެޅުން · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): MCP ސާވަރ · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): ތައްޔާރުކުރި ގޮތް · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): ކޮންމެ ކޯޕަހެއް އަޕްޑޭޓްކޮށްފައިވާ މިންވަރު · [މޮނިޓަރިންގ](https://github.com/lexifina/global-law/tree/main/monitoring): އަޕްޑޭޓްތައް ހިނގަމުންދޭތޯ · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): ބަދަލުތަކަށް ކޮންމެ ރަސްމީ މަސްދަރެއް ފާރަވެރިކުރާ ގޮތް
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): ޓޫލްތަކުގެ ހަލުވިކަން، މިނިފައި
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): ދުނިޔޭގެ ޤާނޫނުތައް ގުޅުވާ ޗާޓުތަކާއި ގުޅުންތައް
+- [ކުށްތައް](https://github.com/lexifina/global-law/tree/main/vulnerabilities): ޝާއިޢުކުރެވުނު ގޮތަށް ޤާނޫނުތަކުގައިވާ ގޯސްތައް
